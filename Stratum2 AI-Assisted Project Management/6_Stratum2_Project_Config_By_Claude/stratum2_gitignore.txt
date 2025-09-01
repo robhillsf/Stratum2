@@ -1,0 +1,72 @@
+# Build directories
+build/
+Builds/
+cmake-build-*/
+
+# IDE files
+.vscode/
+.idea/
+*.xcworkspace
+*.xcodeproj
+
+# Compiled binaries
+*.app
+*.component
+*.vst3
+*.au
+
+# OS specific
+.DS_Store
+Thumbs.db
+
+# JUCE specific
+JuceLibraryCode/
+*.jucer.bak
+
+# Database backups
+*.db.backup
+*.db.bak
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# User-specific files
+*.user
+*.suo
+*.sdf
+*.opensdf
+*.VC.db
+*.VC.VC.opendb
+
+# Xcode
+DerivedData/
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+!default.pbxuser
+!default.mode1v3
+!default.mode2v3
+!default.perspectivev3
+
+# Generated documentation
+docs/html/
+docs/latex/
+
+# Package managers
+conandata.yml
+conanfile.txt
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Testing
+test_results/
+*.gcov
+*.gcda
+*.gcno

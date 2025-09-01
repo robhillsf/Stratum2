@@ -1,0 +1,112 @@
+cmake_minimum_required(VERSION 3.22)
+
+project(Stratum2 VERSION 1.0.0)
+
+# Find JUCE
+find_package(PkgConfig REQUIRED)
+find_path(JUCE_DIR 
+    NAMES CMakeLists.txt
+    PATHS 
+        /usr/local/share/juce
+        /opt/homebrew/share/juce
+        ~/JUCE
+        /Applications/JUCE
+    PATH_SUFFIXES JUCE
+)
+
+if(NOT JUCE_DIR)
+    message(FATAL_ERROR "JUCE not found. Please install JUCE or set JUCE_DIR")
+endif()
+
+add_subdirectory(${JUCE_DIR} JUCE)
+
+# Stratum2 plugin configuration
+juce_add_plugin(Stratum2
+    COMPANY_NAME "Stratum2Audio"
+    IS_SYNTH FALSE
+    NEEDS_MIDI_INPUT TRUE
+    NEEDS_MIDI_OUTPUT TRUE
+    IS_MIDI_EFFECT TRUE
+    EDITOR_WANTS_KEYBOARD_FOCUS TRUE
+    COPY_PLUGIN_AFTER_BUILD TRUE
+    PLUGIN_MANUFACTURER_CODE S2Au
+    PLUGIN_CODE Str2
+    FORMATS AU VST3 Standalone
+    PRODUCT_NAME "Stratum2"
+    BUNDLE_ID "com.stratum2audio.stratum2"
+    MICROPHONE_PERMISSION_ENABLED FALSE
+    CAMERA_PERMISSION_ENABLED FALSE
+)
+
+# Source files
+juce_generate_juce_header(Stratum2)
+
+target_sources(Stratum2
+    PRIVATE
+        Source/PluginProcessor.cpp
+        Source/PluginEditor.cpp
+        Source/Core/ProjectManager.cpp
+        Source/Core/MIDIProcessor.cpp
+        Source/Core/TimingAnalyzer.cpp
+        Source/Core/LayerStackManager.cpp
+        Source/Core/HarmonicAnalyzer.cpp
+        Source/Core/NotationRenderer.cpp
+        Source/Core/RoutingManager.cpp
+        Source/Database/DatabaseManager.cpp
+        Source/UI/MainInterface.cpp
+        Source/UI/LayerTabComponent.cpp
+        Source/UI/PianoRollComponent.cpp
+        Source/UI/NotationComponent.cpp
+        Source/UI/HarmonicAnalysisComponent.cpp
+)
+
+target_compile_definitions(Stratum2
+    PUBLIC
+        JUCE_WEB_BROWSER=0
+        JUCE_USE_CURL=0
+        JUCE_VST3_CAN_REPLACE_VST2=0
+        JUCE_DISPLAY_SPLASH_SCREEN=0
+        JUCE_REPORT_APP_USAGE=0
+)
+
+target_link_libraries(Stratum2
+    PRIVATE
+        juce::juce_audio_utils
+        juce::juce_audio_processors
+        juce::juce_gui_basics
+        juce::juce_gui_extra
+        juce::juce_data_structures
+        juce::juce_events
+    PUBLIC
+        juce::juce_recommended_config_flags
+        juce::juce_recommended_lto_flags
+        juce::juce_recommended_warning_flags
+)
+
+# SQLite integration
+find_package(PkgConfig)
+pkg_check_modules(SQLITE3 sqlite3)
+if(SQLITE3_FOUND)
+    target_link_libraries(Stratum2 PRIVATE ${SQLITE3_LIBRARIES})
+    target_include_directories(Stratum2 PRIVATE ${SQLITE3_INCLUDE_DIRS})
+else()
+    # Fallback to bundled SQLite
+    target_sources(Stratum2 PRIVATE Source/ThirdParty/sqlite3.c)
+endif()
+
+# Compiler settings
+target_compile_features(Stratum2 PRIVATE cxx_std_17)
+
+if(APPLE)
+    target_compile_definitions(Stratum2 PRIVATE JUCE_MAC=1)
+elseif(WIN32)
+    target_compile_definitions(Stratum2 PRIVATE JUCE_WINDOWS=1)
+endif()
+
+# Copy database and resources after build
+add_custom_command(TARGET Stratum2 POST_BUILD
+    COMMAND ${CMAKE_COMMAND} -E make_directory $<TARGET_FILE_DIR:Stratum2>/Resources
+    COMMAND ${CMAKE_COMMAND} -E copy_directory 
+        ${CMAKE_CURRENT_SOURCE_DIR}/Resources 
+        $<TARGET_FILE_DIR:Stratum2>/Resources
+)

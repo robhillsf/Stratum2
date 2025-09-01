@@ -1,0 +1,9 @@
+numerator,denominator,beats_per_measure,beat_unit,meter_type,strong_beats,subdivision_feel,genre_associations,historical_period,complexity_level,cultural_origins,dance_associations,typical_tempo_range,accent_pattern
+4,4,4,quarter,simple,"[1, 3]",straight,"pop, rock, classical",all_periods,beginner,western,"march, pop dance",60-200,strong-weak-medium-weak
+2,4,2,quarter,simple,[1],straight,"march, polka",baroque_classical,beginner,european,"march, military",100-140,strong-weak
+3,4,3,quarter,simple,[1],straight,"waltz, folk",classical_romantic,beginner,european,"waltz, minuet",60-180,strong-weak-weak
+6,8,6,eighth,compound,"[1, 4]",lilting,"folk, ballads",traditional,intermediate,celtic_european,"jig, ballad",60-120,strong-weak-weak-medium-weak-weak
+12,8,12,eighth,compound,"[1, 4, 7, 10]",lilting,"blues, ballads",modern,intermediate,american,"blues, slow rock",60-100,strong-weak-weak-medium-weak-weak-medium-weak-weak-strong-weak-weak
+5,4,5,quarter,asymmetrical,"[1, 3]",straight,"progressive, world",modern,advanced,eastern_european,folk dance,80-160,strong-weak-medium-weak-weak
+7,8,7,eighth,asymmetrical,"[1, 3, 5]",straight,"progressive, fusion",modern,advanced,balkan,folk dance,100-180,strong-weak-medium-weak-medium-weak-weak
+9,8,9,eighth,compound,"[1, 4, 7]",lilting,"folk, classical",traditional,intermediate,european,compound triple,60-140,strong-weak-weak-medium-weak-weak-medium-weak-weak

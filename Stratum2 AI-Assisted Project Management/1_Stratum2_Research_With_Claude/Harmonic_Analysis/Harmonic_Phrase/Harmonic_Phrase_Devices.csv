@@ -1,0 +1,59 @@
+category,technique_name,emotional_character,difficulty,applications
+Modal,Ionian (Major),"Bright, stable, resolved",Intermediate,"Pop music, film scores, commercial music"
+Modal,Dorian,"Melancholy but hopeful, bittersweet",Intermediate,"Folk music, Celtic music, jazz modal compositions"
+Modal,Phrygian,"Dark, exotic, Spanish character",Intermediate,"Flamenco, metal music, Middle Eastern influenced music"
+Modal,Lydian,"Bright, floating, ethereal, dreamy",Intermediate,"Film music, progressive rock, jazz fusion"
+Modal,Mixolydian,"Bluesy, rock-like, grounded but not resolved",Intermediate,"Blues, rock, Celtic music, folk traditions"
+Modal,Aeolian (Natural Minor),"Sad, dark, natural minor character",Intermediate,"Folk music, pop ballads, progressive rock"
+Modal,Locrian,"Unstable, dark, unresolved tension",Intermediate,"Theoretical interest, limited practical application"
+Functional,tonic,Classical harmony,Beginner to Advanced,I-vi-ii-V_I-iii-vi
+Functional,predominant,Classical harmony,Beginner to Advanced,ii-V_IV-V_vi-V
+Functional,subdominant,Classical harmony,Beginner to Advanced,IV-V_IV-I_IV-vi
+Functional,dominant,Classical harmony,Beginner to Advanced,V-I_V7-I_viio6-I
+Functional,secondary_dominant_V_of_V,Classical harmony,Beginner to Advanced,V/V-V-I_V7/V-V7-I
+Functional,secondary_dominant_V_of_vi,Classical harmony,Beginner to Advanced,V/vi-vi-IV-V
+Functional,secondary_dominant_V_of_ii,Classical harmony,Beginner to Advanced,V/ii-ii-V-I
+Functional,secondary_dominant_V_of_iii,Classical harmony,Beginner to Advanced,V/iii-iii-vi
+Functional,secondary_dominant_V_of_IV,Classical harmony,Beginner to Advanced,V/IV-IV-V-I
+Functional,neapolitan_sixth,Classical harmony,Beginner to Advanced,N6-V-I_N6-V7-I
+Functional,italian_augmented_sixth,Classical harmony,Beginner to Advanced,It+6-V-I
+Functional,french_augmented_sixth,Classical harmony,Beginner to Advanced,Fr+6-V7-I
+Functional,german_augmented_sixth,Classical harmony,Beginner to Advanced,Ger+6-I64-V-I
+Functional,applied_diminished_viio_of_V,Classical harmony,Beginner to Advanced,viio/V-V-I
+Functional,applied_diminished_viio_of_vi,Classical harmony,Beginner to Advanced,viio/vi-vi-ii-V
+Functional,mode_mixture_flat_VI,Classical harmony,Beginner to Advanced,I-flat_VI-iv-V
+Functional,mode_mixture_iv,Classical harmony,Beginner to Advanced,I-iv-V-I
+Functional,mode_mixture_flat_VII,Classical harmony,Beginner to Advanced,flat_VII-I_flat_VI-flat_VII-I
+Functional,cadential_six_four,Classical harmony,Beginner to Advanced,I64-V-I
+Functional,passing_six_four,Classical harmony,Beginner to Advanced,I-V64-vi_IV-I64-V
+Functional,neighbor_six_four,Classical harmony,Beginner to Advanced,I-IV64-I_V-I64-V
+Functional,extended_dominant_V9,Classical harmony,Beginner to Advanced,V9-I_V9-vi
+Functional,extended_dominant_V11,Classical harmony,Beginner to Advanced,V11-I_suspension_resolution
+Functional,extended_dominant_V13,Classical harmony,Beginner to Advanced,V13-I_jazz_progressions
+Functional,sequence_descending_fifths,Classical harmony,Beginner to Advanced,I-IV-viio-iii-vi-ii-V-I
+Functional,sequence_ascending_seconds,Classical harmony,Beginner to Advanced,I-ii-iii-IV-V-vi-V-I
+Functional,deceptive_resolution,Classical harmony,Beginner to Advanced,V-vi_V7-vi
+Extended,Quartal Harmony,contemplative_modern,intermediate,film_scoring_jazz_harmony
+Extended,Quintal Harmony,primal_powerful,beginner_advanced,minimalist_film_power_chord_extensions
+Extended,Tone Clusters,anxiety_chaos_intensity,advanced,horror_film_modernist_concert_music
+Extended,Polychords,complex_sophisticated_layered,advanced,jazz_reharmonization_neoclassical_ballet
+Extended,Added Tone Chords,dreamy_sophisticated_lush,intermediate,popular_music_jazz_impressionist_classical
+Extended,Pandiatonicism,open_american_pastoral,intermediate,film_americana_pastoral_classical
+Extended,Polytonality,unsettling_modern_complex,very_advanced,modern_classical_contemporary_film
+Extended,Chromatic Mediants,magical_cinematic_surprising,intermediate,film_scoring_late_romantic_pop
+Extended,Modal Interchange,nostalgic_colorful_emotional,intermediate,pop_music_film_classical
+Extended,Synthetic Scales,exotic_otherworldly_mysterious,advanced,film_world_music_contemporary_classical
+Extended,Neo Riemannian Operations,smooth_cinematic_sophisticated,very_advanced,film_harmonic_analysis_composition
+Extended,Altered Dominants,passionate_intense_sophisticated,intermediate_advanced,jazz_classical_popular_music
+Extended,Parallel Harmony,flowing_liquid_impressionistic,intermediate,impressionist_film_contemporary
+Extended,Planing,gliding_smooth_cinematic,intermediate,film_contemporary_classical
+Extended,Secundal Harmony,tense_modern_dissonant,advanced,contemporary_classical_avant_garde
+Extended,Mixed Interval Harmony,intellectually_complex_modern,very_advanced,contemporary_classical_theory_composition
+Extended,Chord Streams,flowing_cinematic_background,intermediate,film_underscoring_textural_music
+Extended,Polychordal Structures,complex_intellectual_dense,very_advanced,contemporary_classical_complex_jazz
+Extended,Harmonic Rhythm Displacement,intellectually_complex_challenging,very_advanced,contemporary_classical_complex_chamber
+Extended,Whole Tone Harmony,dreamy_floating_impressionistic,intermediate,impressionist_film_dreamy_music
+Extended,Octatonic Harmony,exotic_dramatic_symmetrical,advanced,ballet_orchestral_contemporary
+Extended,Hexatonic Harmony,mysterious_augmented_floating,advanced,impressionist_late_romantic_film
+Extended,Mirror Harmony,intellectual_balanced_mathematical,very_advanced,serial_contemporary_classical
+Extended,Harmonic Synthesis,complex_sophisticated_eclectic,master_level,contemporary_eclectic_postmodern

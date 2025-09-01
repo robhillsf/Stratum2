@@ -1,0 +1,769 @@
+chord_name,chord_symbol,chord_type,root_note,chord_tones,chord_intervals,inversion_type,bass_note,chord_quality,tension_extensions,alterations,common_progressions,chord_scale_relationship,harmonic_series_ratios
+C major,CM,major,Tone_C,"Tone_C, Tone_E, Tone_G","0,4,7",root,C,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C major,CM,major,Tone_C,"Tone_C, Tone_E, Tone_G","0,4,7",1,E,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C major,CM,major,Tone_C,"Tone_C, Tone_E, Tone_G","0,4,7",2,G,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C minor,Cm,minor,Tone_C,"Tone_C, Tone_D#, Tone_G","0,3,7",root,C,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C minor,Cm,minor,Tone_C,"Tone_C, Tone_D#, Tone_G","0,3,7",1,D#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C minor,Cm,minor,Tone_C,"Tone_C, Tone_D#, Tone_G","0,3,7",2,G,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C diminished,Cdim,diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#","0,3,6",root,C,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C diminished,Cdim,diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#","0,3,6",1,D#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C diminished,Cdim,diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#","0,3,6",2,F#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C augmented,Caug,augmented,Tone_C,"Tone_C, Tone_E, Tone_G#","0,4,8",root,C,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C augmented,Caug,augmented,Tone_C,"Tone_C, Tone_E, Tone_G#","0,4,8",1,E,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C augmented,Caug,augmented,Tone_C,"Tone_C, Tone_E, Tone_G#","0,4,8",2,G#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C major_seventh,CM7,major_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,11",root,C,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C major_seventh,CM7,major_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,11",1,E,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C major_seventh,CM7,major_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,11",2,G,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C major_seventh,CM7,major_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,11",3,B,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C minor_seventh,Cm7,minor_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_A#","0,3,7,10",root,C,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_seventh,Cm7,minor_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_A#","0,3,7,10",1,D#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_seventh,Cm7,minor_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_A#","0,3,7,10",2,G,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_seventh,Cm7,minor_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_A#","0,3,7,10",3,A#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C dominant_seventh,C7,dominant_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#","0,4,7,10",root,C,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C dominant_seventh,C7,dominant_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#","0,4,7,10",1,E,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C dominant_seventh,C7,dominant_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#","0,4,7,10",2,G,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C dominant_seventh,C7,dominant_seventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#","0,4,7,10",3,A#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C diminished_seventh,Cdim7,diminished_seventh,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A","0,3,6,9",root,C,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C diminished_seventh,Cdim7,diminished_seventh,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A","0,3,6,9",1,D#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C diminished_seventh,Cdim7,diminished_seventh,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A","0,3,6,9",2,F#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C diminished_seventh,Cdim7,diminished_seventh,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A","0,3,6,9",3,A,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C half_diminished,Cm7b5,half_diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A#","0,3,6,10",root,C,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C half_diminished,Cm7b5,half_diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A#","0,3,6,10",1,D#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C half_diminished,Cm7b5,half_diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A#","0,3,6,10",2,F#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C half_diminished,Cm7b5,half_diminished,Tone_C,"Tone_C, Tone_D#, Tone_F#, Tone_A#","0,3,6,10",3,A#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_major_seventh,CmM7,minor_major_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_B","0,3,7,11",root,C,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_major_seventh,CmM7,minor_major_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_B","0,3,7,11",1,D#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_major_seventh,CmM7,minor_major_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_B","0,3,7,11",2,G,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C minor_major_seventh,CmM7,minor_major_seventh,Tone_C,"Tone_C, Tone_D#, Tone_G, Tone_B","0,3,7,11",3,B,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C ninth,C9,ninth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D","0,4,7,10,14",root,C,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C ninth,C9,ninth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D","0,4,7,10,14",1,E,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C ninth,C9,ninth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D","0,4,7,10,14",2,G,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C ninth,C9,ninth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D","0,4,7,10,14",3,A#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C ninth,C9,ninth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D","0,4,7,10,14",4,D,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",root,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",1,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",2,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",3,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",4,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C eleventh,C11,eleventh,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F","0,4,7,10,14,17",5,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",root,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",1,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",2,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",3,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",4,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",5,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C thirteenth,C13,thirteenth,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,10,14,17,21",6,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C add9,Cadd9,add9,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_D","0,4,7,14",root,C,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C add9,Cadd9,add9,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_D","0,4,7,14",1,E,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C add9,Cadd9,add9,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_D","0,4,7,14",2,G,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C add9,Cadd9,add9,Tone_C,"Tone_C, Tone_E, Tone_G, Tone_D","0,4,7,14",3,D,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus2,Csus2,sus2,Tone_C,"Tone_C, Tone_D, Tone_G","0,2,7",root,C,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus2,Csus2,sus2,Tone_C,"Tone_C, Tone_D, Tone_G","0,2,7",1,D,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus2,Csus2,sus2,Tone_C,"Tone_C, Tone_D, Tone_G","0,2,7",2,G,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus4,Csus4,sus4,Tone_C,"Tone_C, Tone_F, Tone_G","0,5,7",root,C,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus4,Csus4,sus4,Tone_C,"Tone_C, Tone_F, Tone_G","0,5,7",1,F,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C sus4,Csus4,sus4,Tone_C,"Tone_C, Tone_F, Tone_G","0,5,7",2,G,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# major,C#M,major,Tone_C#,"Tone_C#, Tone_F, Tone_G#","0,4,7",root,C#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C# major,C#M,major,Tone_C#,"Tone_C#, Tone_F, Tone_G#","0,4,7",1,F,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C# major,C#M,major,Tone_C#,"Tone_C#, Tone_F, Tone_G#","0,4,7",2,G#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+C# minor,C#m,minor,Tone_C#,"Tone_C#, Tone_E, Tone_G#","0,3,7",root,C#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C# minor,C#m,minor,Tone_C#,"Tone_C#, Tone_E, Tone_G#","0,3,7",1,E,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C# minor,C#m,minor,Tone_C#,"Tone_C#, Tone_E, Tone_G#","0,3,7",2,G#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+C# diminished,C#dim,diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G","0,3,6",root,C#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C# diminished,C#dim,diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G","0,3,6",1,E,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C# diminished,C#dim,diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G","0,3,6",2,G,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+C# augmented,C#aug,augmented,Tone_C#,"Tone_C#, Tone_F, Tone_A","0,4,8",root,C#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# augmented,C#aug,augmented,Tone_C#,"Tone_C#, Tone_F, Tone_A","0,4,8",1,F,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# augmented,C#aug,augmented,Tone_C#,"Tone_C#, Tone_F, Tone_A","0,4,8",2,A,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# major_seventh,C#M7,major_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,11",root,C#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C# major_seventh,C#M7,major_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,11",1,F,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C# major_seventh,C#M7,major_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,11",2,G#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C# major_seventh,C#M7,major_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,11",3,C,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+C# minor_seventh,C#m7,minor_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_B","0,3,7,10",root,C#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_seventh,C#m7,minor_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_B","0,3,7,10",1,E,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_seventh,C#m7,minor_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_B","0,3,7,10",2,G#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_seventh,C#m7,minor_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_B","0,3,7,10",3,B,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+C# dominant_seventh,C#7,dominant_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B","0,4,7,10",root,C#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C# dominant_seventh,C#7,dominant_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B","0,4,7,10",1,F,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C# dominant_seventh,C#7,dominant_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B","0,4,7,10",2,G#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C# dominant_seventh,C#7,dominant_seventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B","0,4,7,10",3,B,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+C# diminished_seventh,C#dim7,diminished_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_A#","0,3,6,9",root,C#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C# diminished_seventh,C#dim7,diminished_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_A#","0,3,6,9",1,E,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C# diminished_seventh,C#dim7,diminished_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_A#","0,3,6,9",2,G,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C# diminished_seventh,C#dim7,diminished_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_A#","0,3,6,9",3,A#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+C# half_diminished,C#m7b5,half_diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_B","0,3,6,10",root,C#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C# half_diminished,C#m7b5,half_diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_B","0,3,6,10",1,E,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C# half_diminished,C#m7b5,half_diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_B","0,3,6,10",2,G,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C# half_diminished,C#m7b5,half_diminished,Tone_C#,"Tone_C#, Tone_E, Tone_G, Tone_B","0,3,6,10",3,B,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_major_seventh,C#mM7,minor_major_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_C","0,3,7,11",root,C#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_major_seventh,C#mM7,minor_major_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_C","0,3,7,11",1,E,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_major_seventh,C#mM7,minor_major_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_C","0,3,7,11",2,G#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C# minor_major_seventh,C#mM7,minor_major_seventh,Tone_C#,"Tone_C#, Tone_E, Tone_G#, Tone_C","0,3,7,11",3,C,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+C# ninth,C#9,ninth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14",root,C#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C# ninth,C#9,ninth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14",1,F,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C# ninth,C#9,ninth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14",2,G#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C# ninth,C#9,ninth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14",3,B,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C# ninth,C#9,ninth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14",4,D#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",root,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",1,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",2,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",3,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",4,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# eleventh,C#11,eleventh,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#","0,4,7,10,14,17",5,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",root,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",1,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",2,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",3,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",4,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",5,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# thirteenth,C#13,thirteenth,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14,17,21",6,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+C# add9,C#add9,add9,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_D#","0,4,7,14",root,C#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# add9,C#add9,add9,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_D#","0,4,7,14",1,F,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# add9,C#add9,add9,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_D#","0,4,7,14",2,G#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# add9,C#add9,add9,Tone_C#,"Tone_C#, Tone_F, Tone_G#, Tone_D#","0,4,7,14",3,D#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus2,C#sus2,sus2,Tone_C#,"Tone_C#, Tone_D#, Tone_G#","0,2,7",root,C#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus2,C#sus2,sus2,Tone_C#,"Tone_C#, Tone_D#, Tone_G#","0,2,7",1,D#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus2,C#sus2,sus2,Tone_C#,"Tone_C#, Tone_D#, Tone_G#","0,2,7",2,G#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus4,C#sus4,sus4,Tone_C#,"Tone_C#, Tone_F#, Tone_G#","0,5,7",root,C#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus4,C#sus4,sus4,Tone_C#,"Tone_C#, Tone_F#, Tone_G#","0,5,7",1,F#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+C# sus4,C#sus4,sus4,Tone_C#,"Tone_C#, Tone_F#, Tone_G#","0,5,7",2,G#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D major,DM,major,Tone_D,"Tone_D, Tone_F#, Tone_A","0,4,7",root,D,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D major,DM,major,Tone_D,"Tone_D, Tone_F#, Tone_A","0,4,7",1,F#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D major,DM,major,Tone_D,"Tone_D, Tone_F#, Tone_A","0,4,7",2,A,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D minor,Dm,minor,Tone_D,"Tone_D, Tone_F, Tone_A","0,3,7",root,D,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D minor,Dm,minor,Tone_D,"Tone_D, Tone_F, Tone_A","0,3,7",1,F,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D minor,Dm,minor,Tone_D,"Tone_D, Tone_F, Tone_A","0,3,7",2,A,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D diminished,Ddim,diminished,Tone_D,"Tone_D, Tone_F, Tone_G#","0,3,6",root,D,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D diminished,Ddim,diminished,Tone_D,"Tone_D, Tone_F, Tone_G#","0,3,6",1,F,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D diminished,Ddim,diminished,Tone_D,"Tone_D, Tone_F, Tone_G#","0,3,6",2,G#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D augmented,Daug,augmented,Tone_D,"Tone_D, Tone_F#, Tone_A#","0,4,8",root,D,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D augmented,Daug,augmented,Tone_D,"Tone_D, Tone_F#, Tone_A#","0,4,8",1,F#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D augmented,Daug,augmented,Tone_D,"Tone_D, Tone_F#, Tone_A#","0,4,8",2,A#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D major_seventh,DM7,major_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,11",root,D,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D major_seventh,DM7,major_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,11",1,F#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D major_seventh,DM7,major_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,11",2,A,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D major_seventh,DM7,major_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,11",3,C#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D minor_seventh,Dm7,minor_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C","0,3,7,10",root,D,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_seventh,Dm7,minor_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C","0,3,7,10",1,F,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_seventh,Dm7,minor_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C","0,3,7,10",2,A,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_seventh,Dm7,minor_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C","0,3,7,10",3,C,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D dominant_seventh,D7,dominant_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C","0,4,7,10",root,D,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D dominant_seventh,D7,dominant_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C","0,4,7,10",1,F#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D dominant_seventh,D7,dominant_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C","0,4,7,10",2,A,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D dominant_seventh,D7,dominant_seventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C","0,4,7,10",3,C,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D diminished_seventh,Ddim7,diminished_seventh,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_B","0,3,6,9",root,D,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D diminished_seventh,Ddim7,diminished_seventh,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_B","0,3,6,9",1,F,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D diminished_seventh,Ddim7,diminished_seventh,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_B","0,3,6,9",2,G#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D diminished_seventh,Ddim7,diminished_seventh,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_B","0,3,6,9",3,B,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D half_diminished,Dm7b5,half_diminished,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_C","0,3,6,10",root,D,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D half_diminished,Dm7b5,half_diminished,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_C","0,3,6,10",1,F,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D half_diminished,Dm7b5,half_diminished,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_C","0,3,6,10",2,G#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D half_diminished,Dm7b5,half_diminished,Tone_D,"Tone_D, Tone_F, Tone_G#, Tone_C","0,3,6,10",3,C,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_major_seventh,DmM7,minor_major_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C#","0,3,7,11",root,D,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_major_seventh,DmM7,minor_major_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C#","0,3,7,11",1,F,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_major_seventh,DmM7,minor_major_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C#","0,3,7,11",2,A,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D minor_major_seventh,DmM7,minor_major_seventh,Tone_D,"Tone_D, Tone_F, Tone_A, Tone_C#","0,3,7,11",3,C#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D ninth,D9,ninth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E","0,4,7,10,14",root,D,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D ninth,D9,ninth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E","0,4,7,10,14",1,F#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D ninth,D9,ninth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E","0,4,7,10,14",2,A,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D ninth,D9,ninth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E","0,4,7,10,14",3,C,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D ninth,D9,ninth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E","0,4,7,10,14",4,E,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",root,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",1,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",2,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",3,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",4,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D eleventh,D11,eleventh,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G","0,4,7,10,14,17",5,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",root,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",1,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",2,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",3,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",4,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",5,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D thirteenth,D13,thirteenth,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_C, Tone_E, Tone_G, Tone_B","0,4,7,10,14,17,21",6,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D add9,Dadd9,add9,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_E","0,4,7,14",root,D,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D add9,Dadd9,add9,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_E","0,4,7,14",1,F#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D add9,Dadd9,add9,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_E","0,4,7,14",2,A,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D add9,Dadd9,add9,Tone_D,"Tone_D, Tone_F#, Tone_A, Tone_E","0,4,7,14",3,E,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus2,Dsus2,sus2,Tone_D,"Tone_D, Tone_E, Tone_A","0,2,7",root,D,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus2,Dsus2,sus2,Tone_D,"Tone_D, Tone_E, Tone_A","0,2,7",1,E,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus2,Dsus2,sus2,Tone_D,"Tone_D, Tone_E, Tone_A","0,2,7",2,A,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus4,Dsus4,sus4,Tone_D,"Tone_D, Tone_G, Tone_A","0,5,7",root,D,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus4,Dsus4,sus4,Tone_D,"Tone_D, Tone_G, Tone_A","0,5,7",1,G,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D sus4,Dsus4,sus4,Tone_D,"Tone_D, Tone_G, Tone_A","0,5,7",2,A,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# major,D#M,major,Tone_D#,"Tone_D#, Tone_G, Tone_A#","0,4,7",root,D#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D# major,D#M,major,Tone_D#,"Tone_D#, Tone_G, Tone_A#","0,4,7",1,G,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D# major,D#M,major,Tone_D#,"Tone_D#, Tone_G, Tone_A#","0,4,7",2,A#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+D# minor,D#m,minor,Tone_D#,"Tone_D#, Tone_F#, Tone_A#","0,3,7",root,D#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D# minor,D#m,minor,Tone_D#,"Tone_D#, Tone_F#, Tone_A#","0,3,7",1,F#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D# minor,D#m,minor,Tone_D#,"Tone_D#, Tone_F#, Tone_A#","0,3,7",2,A#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+D# diminished,D#dim,diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A","0,3,6",root,D#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D# diminished,D#dim,diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A","0,3,6",1,F#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D# diminished,D#dim,diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A","0,3,6",2,A,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+D# augmented,D#aug,augmented,Tone_D#,"Tone_D#, Tone_G, Tone_B","0,4,8",root,D#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# augmented,D#aug,augmented,Tone_D#,"Tone_D#, Tone_G, Tone_B","0,4,8",1,G,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# augmented,D#aug,augmented,Tone_D#,"Tone_D#, Tone_G, Tone_B","0,4,8",2,B,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# major_seventh,D#M7,major_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,11",root,D#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D# major_seventh,D#M7,major_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,11",1,G,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D# major_seventh,D#M7,major_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,11",2,A#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D# major_seventh,D#M7,major_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,11",3,D,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+D# minor_seventh,D#m7,minor_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,3,7,10",root,D#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_seventh,D#m7,minor_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,3,7,10",1,F#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_seventh,D#m7,minor_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,3,7,10",2,A#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_seventh,D#m7,minor_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,3,7,10",3,C#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+D# dominant_seventh,D#7,dominant_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#","0,4,7,10",root,D#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D# dominant_seventh,D#7,dominant_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#","0,4,7,10",1,G,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D# dominant_seventh,D#7,dominant_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#","0,4,7,10",2,A#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D# dominant_seventh,D#7,dominant_seventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#","0,4,7,10",3,C#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+D# diminished_seventh,D#dim7,diminished_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C","0,3,6,9",root,D#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D# diminished_seventh,D#dim7,diminished_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C","0,3,6,9",1,F#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D# diminished_seventh,D#dim7,diminished_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C","0,3,6,9",2,A,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D# diminished_seventh,D#dim7,diminished_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C","0,3,6,9",3,C,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+D# half_diminished,D#m7b5,half_diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C#","0,3,6,10",root,D#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D# half_diminished,D#m7b5,half_diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C#","0,3,6,10",1,F#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D# half_diminished,D#m7b5,half_diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C#","0,3,6,10",2,A,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D# half_diminished,D#m7b5,half_diminished,Tone_D#,"Tone_D#, Tone_F#, Tone_A, Tone_C#","0,3,6,10",3,C#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_major_seventh,D#mM7,minor_major_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_D","0,3,7,11",root,D#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_major_seventh,D#mM7,minor_major_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_D","0,3,7,11",1,F#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_major_seventh,D#mM7,minor_major_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_D","0,3,7,11",2,A#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D# minor_major_seventh,D#mM7,minor_major_seventh,Tone_D#,"Tone_D#, Tone_F#, Tone_A#, Tone_D","0,3,7,11",3,D,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+D# ninth,D#9,ninth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14",root,D#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D# ninth,D#9,ninth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14",1,G,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D# ninth,D#9,ninth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14",2,A#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D# ninth,D#9,ninth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14",3,C#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D# ninth,D#9,ninth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14",4,F,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",root,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",1,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",2,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",3,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",4,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# eleventh,D#11,eleventh,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#","0,4,7,10,14,17",5,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",root,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",1,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",2,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",3,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",4,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",5,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# thirteenth,D#13,thirteenth,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_C#, Tone_F, Tone_G#, Tone_C","0,4,7,10,14,17,21",6,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+D# add9,D#add9,add9,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_F","0,4,7,14",root,D#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# add9,D#add9,add9,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_F","0,4,7,14",1,G,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# add9,D#add9,add9,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_F","0,4,7,14",2,A#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# add9,D#add9,add9,Tone_D#,"Tone_D#, Tone_G, Tone_A#, Tone_F","0,4,7,14",3,F,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus2,D#sus2,sus2,Tone_D#,"Tone_D#, Tone_F, Tone_A#","0,2,7",root,D#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus2,D#sus2,sus2,Tone_D#,"Tone_D#, Tone_F, Tone_A#","0,2,7",1,F,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus2,D#sus2,sus2,Tone_D#,"Tone_D#, Tone_F, Tone_A#","0,2,7",2,A#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus4,D#sus4,sus4,Tone_D#,"Tone_D#, Tone_G#, Tone_A#","0,5,7",root,D#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus4,D#sus4,sus4,Tone_D#,"Tone_D#, Tone_G#, Tone_A#","0,5,7",1,G#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+D# sus4,D#sus4,sus4,Tone_D#,"Tone_D#, Tone_G#, Tone_A#","0,5,7",2,A#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E major,EM,major,Tone_E,"Tone_E, Tone_G#, Tone_B","0,4,7",root,E,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+E major,EM,major,Tone_E,"Tone_E, Tone_G#, Tone_B","0,4,7",1,G#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+E major,EM,major,Tone_E,"Tone_E, Tone_G#, Tone_B","0,4,7",2,B,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+E minor,Em,minor,Tone_E,"Tone_E, Tone_G, Tone_B","0,3,7",root,E,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+E minor,Em,minor,Tone_E,"Tone_E, Tone_G, Tone_B","0,3,7",1,G,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+E minor,Em,minor,Tone_E,"Tone_E, Tone_G, Tone_B","0,3,7",2,B,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+E diminished,Edim,diminished,Tone_E,"Tone_E, Tone_G, Tone_A#","0,3,6",root,E,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+E diminished,Edim,diminished,Tone_E,"Tone_E, Tone_G, Tone_A#","0,3,6",1,G,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+E diminished,Edim,diminished,Tone_E,"Tone_E, Tone_G, Tone_A#","0,3,6",2,A#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+E augmented,Eaug,augmented,Tone_E,"Tone_E, Tone_G#, Tone_C","0,4,8",root,E,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E augmented,Eaug,augmented,Tone_E,"Tone_E, Tone_G#, Tone_C","0,4,8",1,G#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E augmented,Eaug,augmented,Tone_E,"Tone_E, Tone_G#, Tone_C","0,4,8",2,C,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E major_seventh,EM7,major_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,11",root,E,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+E major_seventh,EM7,major_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,11",1,G#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+E major_seventh,EM7,major_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,11",2,B,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+E major_seventh,EM7,major_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,11",3,D#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+E minor_seventh,Em7,minor_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D","0,3,7,10",root,E,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_seventh,Em7,minor_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D","0,3,7,10",1,G,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_seventh,Em7,minor_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D","0,3,7,10",2,B,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_seventh,Em7,minor_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D","0,3,7,10",3,D,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+E dominant_seventh,E7,dominant_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D","0,4,7,10",root,E,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+E dominant_seventh,E7,dominant_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D","0,4,7,10",1,G#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+E dominant_seventh,E7,dominant_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D","0,4,7,10",2,B,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+E dominant_seventh,E7,dominant_seventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D","0,4,7,10",3,D,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+E diminished_seventh,Edim7,diminished_seventh,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_C#","0,3,6,9",root,E,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+E diminished_seventh,Edim7,diminished_seventh,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_C#","0,3,6,9",1,G,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+E diminished_seventh,Edim7,diminished_seventh,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_C#","0,3,6,9",2,A#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+E diminished_seventh,Edim7,diminished_seventh,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_C#","0,3,6,9",3,C#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+E half_diminished,Em7b5,half_diminished,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_D","0,3,6,10",root,E,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+E half_diminished,Em7b5,half_diminished,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_D","0,3,6,10",1,G,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+E half_diminished,Em7b5,half_diminished,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_D","0,3,6,10",2,A#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+E half_diminished,Em7b5,half_diminished,Tone_E,"Tone_E, Tone_G, Tone_A#, Tone_D","0,3,6,10",3,D,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_major_seventh,EmM7,minor_major_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D#","0,3,7,11",root,E,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_major_seventh,EmM7,minor_major_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D#","0,3,7,11",1,G,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_major_seventh,EmM7,minor_major_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D#","0,3,7,11",2,B,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+E minor_major_seventh,EmM7,minor_major_seventh,Tone_E,"Tone_E, Tone_G, Tone_B, Tone_D#","0,3,7,11",3,D#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+E ninth,E9,ninth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#","0,4,7,10,14",root,E,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+E ninth,E9,ninth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#","0,4,7,10,14",1,G#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+E ninth,E9,ninth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#","0,4,7,10,14",2,B,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+E ninth,E9,ninth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#","0,4,7,10,14",3,D,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+E ninth,E9,ninth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#","0,4,7,10,14",4,F#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",root,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",1,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",2,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",3,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",4,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E eleventh,E11,eleventh,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A","0,4,7,10,14,17",5,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",root,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",1,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",2,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",3,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",4,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",5,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E thirteenth,E13,thirteenth,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_D, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14,17,21",6,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+E add9,Eadd9,add9,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_F#","0,4,7,14",root,E,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E add9,Eadd9,add9,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_F#","0,4,7,14",1,G#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E add9,Eadd9,add9,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_F#","0,4,7,14",2,B,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E add9,Eadd9,add9,Tone_E,"Tone_E, Tone_G#, Tone_B, Tone_F#","0,4,7,14",3,F#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus2,Esus2,sus2,Tone_E,"Tone_E, Tone_F#, Tone_B","0,2,7",root,E,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus2,Esus2,sus2,Tone_E,"Tone_E, Tone_F#, Tone_B","0,2,7",1,F#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus2,Esus2,sus2,Tone_E,"Tone_E, Tone_F#, Tone_B","0,2,7",2,B,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus4,Esus4,sus4,Tone_E,"Tone_E, Tone_A, Tone_B","0,5,7",root,E,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus4,Esus4,sus4,Tone_E,"Tone_E, Tone_A, Tone_B","0,5,7",1,A,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+E sus4,Esus4,sus4,Tone_E,"Tone_E, Tone_A, Tone_B","0,5,7",2,B,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F major,FM,major,Tone_F,"Tone_F, Tone_A, Tone_C","0,4,7",root,F,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F major,FM,major,Tone_F,"Tone_F, Tone_A, Tone_C","0,4,7",1,A,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F major,FM,major,Tone_F,"Tone_F, Tone_A, Tone_C","0,4,7",2,C,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F minor,Fm,minor,Tone_F,"Tone_F, Tone_G#, Tone_C","0,3,7",root,F,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F minor,Fm,minor,Tone_F,"Tone_F, Tone_G#, Tone_C","0,3,7",1,G#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F minor,Fm,minor,Tone_F,"Tone_F, Tone_G#, Tone_C","0,3,7",2,C,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F diminished,Fdim,diminished,Tone_F,"Tone_F, Tone_G#, Tone_B","0,3,6",root,F,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F diminished,Fdim,diminished,Tone_F,"Tone_F, Tone_G#, Tone_B","0,3,6",1,G#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F diminished,Fdim,diminished,Tone_F,"Tone_F, Tone_G#, Tone_B","0,3,6",2,B,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F augmented,Faug,augmented,Tone_F,"Tone_F, Tone_A, Tone_C#","0,4,8",root,F,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F augmented,Faug,augmented,Tone_F,"Tone_F, Tone_A, Tone_C#","0,4,8",1,A,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F augmented,Faug,augmented,Tone_F,"Tone_F, Tone_A, Tone_C#","0,4,8",2,C#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F major_seventh,FM7,major_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,11",root,F,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F major_seventh,FM7,major_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,11",1,A,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F major_seventh,FM7,major_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,11",2,C,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F major_seventh,FM7,major_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,11",3,E,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F minor_seventh,Fm7,minor_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_D#","0,3,7,10",root,F,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_seventh,Fm7,minor_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_D#","0,3,7,10",1,G#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_seventh,Fm7,minor_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_D#","0,3,7,10",2,C,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_seventh,Fm7,minor_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_D#","0,3,7,10",3,D#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F dominant_seventh,F7,dominant_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#","0,4,7,10",root,F,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F dominant_seventh,F7,dominant_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#","0,4,7,10",1,A,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F dominant_seventh,F7,dominant_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#","0,4,7,10",2,C,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F dominant_seventh,F7,dominant_seventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#","0,4,7,10",3,D#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F diminished_seventh,Fdim7,diminished_seventh,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D","0,3,6,9",root,F,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F diminished_seventh,Fdim7,diminished_seventh,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D","0,3,6,9",1,G#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F diminished_seventh,Fdim7,diminished_seventh,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D","0,3,6,9",2,B,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F diminished_seventh,Fdim7,diminished_seventh,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D","0,3,6,9",3,D,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F half_diminished,Fm7b5,half_diminished,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D#","0,3,6,10",root,F,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F half_diminished,Fm7b5,half_diminished,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D#","0,3,6,10",1,G#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F half_diminished,Fm7b5,half_diminished,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D#","0,3,6,10",2,B,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F half_diminished,Fm7b5,half_diminished,Tone_F,"Tone_F, Tone_G#, Tone_B, Tone_D#","0,3,6,10",3,D#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_major_seventh,FmM7,minor_major_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_E","0,3,7,11",root,F,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_major_seventh,FmM7,minor_major_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_E","0,3,7,11",1,G#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_major_seventh,FmM7,minor_major_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_E","0,3,7,11",2,C,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F minor_major_seventh,FmM7,minor_major_seventh,Tone_F,"Tone_F, Tone_G#, Tone_C, Tone_E","0,3,7,11",3,E,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F ninth,F9,ninth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G","0,4,7,10,14",root,F,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F ninth,F9,ninth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G","0,4,7,10,14",1,A,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F ninth,F9,ninth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G","0,4,7,10,14",2,C,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F ninth,F9,ninth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G","0,4,7,10,14",3,D#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F ninth,F9,ninth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G","0,4,7,10,14",4,G,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",root,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",1,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",2,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",3,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",4,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F eleventh,F11,eleventh,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#","0,4,7,10,14,17",5,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",root,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",1,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",2,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",3,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",4,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",5,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F thirteenth,F13,thirteenth,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_D#, Tone_G, Tone_A#, Tone_D","0,4,7,10,14,17,21",6,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F add9,Fadd9,add9,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_G","0,4,7,14",root,F,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F add9,Fadd9,add9,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_G","0,4,7,14",1,A,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F add9,Fadd9,add9,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_G","0,4,7,14",2,C,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F add9,Fadd9,add9,Tone_F,"Tone_F, Tone_A, Tone_C, Tone_G","0,4,7,14",3,G,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus2,Fsus2,sus2,Tone_F,"Tone_F, Tone_G, Tone_C","0,2,7",root,F,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus2,Fsus2,sus2,Tone_F,"Tone_F, Tone_G, Tone_C","0,2,7",1,G,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus2,Fsus2,sus2,Tone_F,"Tone_F, Tone_G, Tone_C","0,2,7",2,C,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus4,Fsus4,sus4,Tone_F,"Tone_F, Tone_A#, Tone_C","0,5,7",root,F,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus4,Fsus4,sus4,Tone_F,"Tone_F, Tone_A#, Tone_C","0,5,7",1,A#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F sus4,Fsus4,sus4,Tone_F,"Tone_F, Tone_A#, Tone_C","0,5,7",2,C,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# major,F#M,major,Tone_F#,"Tone_F#, Tone_A#, Tone_C#","0,4,7",root,F#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F# major,F#M,major,Tone_F#,"Tone_F#, Tone_A#, Tone_C#","0,4,7",1,A#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F# major,F#M,major,Tone_F#,"Tone_F#, Tone_A#, Tone_C#","0,4,7",2,C#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+F# minor,F#m,minor,Tone_F#,"Tone_F#, Tone_A, Tone_C#","0,3,7",root,F#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F# minor,F#m,minor,Tone_F#,"Tone_F#, Tone_A, Tone_C#","0,3,7",1,A,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F# minor,F#m,minor,Tone_F#,"Tone_F#, Tone_A, Tone_C#","0,3,7",2,C#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+F# diminished,F#dim,diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C","0,3,6",root,F#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F# diminished,F#dim,diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C","0,3,6",1,A,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F# diminished,F#dim,diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C","0,3,6",2,C,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+F# augmented,F#aug,augmented,Tone_F#,"Tone_F#, Tone_A#, Tone_D","0,4,8",root,F#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# augmented,F#aug,augmented,Tone_F#,"Tone_F#, Tone_A#, Tone_D","0,4,8",1,A#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# augmented,F#aug,augmented,Tone_F#,"Tone_F#, Tone_A#, Tone_D","0,4,8",2,D,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# major_seventh,F#M7,major_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,11",root,F#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F# major_seventh,F#M7,major_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,11",1,A#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F# major_seventh,F#M7,major_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,11",2,C#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F# major_seventh,F#M7,major_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,11",3,F,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+F# minor_seventh,F#m7,minor_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_E","0,3,7,10",root,F#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_seventh,F#m7,minor_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_E","0,3,7,10",1,A,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_seventh,F#m7,minor_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_E","0,3,7,10",2,C#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_seventh,F#m7,minor_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_E","0,3,7,10",3,E,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+F# dominant_seventh,F#7,dominant_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E","0,4,7,10",root,F#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F# dominant_seventh,F#7,dominant_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E","0,4,7,10",1,A#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F# dominant_seventh,F#7,dominant_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E","0,4,7,10",2,C#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F# dominant_seventh,F#7,dominant_seventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E","0,4,7,10",3,E,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+F# diminished_seventh,F#dim7,diminished_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_D#","0,3,6,9",root,F#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F# diminished_seventh,F#dim7,diminished_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_D#","0,3,6,9",1,A,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F# diminished_seventh,F#dim7,diminished_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_D#","0,3,6,9",2,C,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F# diminished_seventh,F#dim7,diminished_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_D#","0,3,6,9",3,D#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+F# half_diminished,F#m7b5,half_diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_E","0,3,6,10",root,F#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F# half_diminished,F#m7b5,half_diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_E","0,3,6,10",1,A,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F# half_diminished,F#m7b5,half_diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_E","0,3,6,10",2,C,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F# half_diminished,F#m7b5,half_diminished,Tone_F#,"Tone_F#, Tone_A, Tone_C, Tone_E","0,3,6,10",3,E,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_major_seventh,F#mM7,minor_major_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_F","0,3,7,11",root,F#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_major_seventh,F#mM7,minor_major_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_F","0,3,7,11",1,A,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_major_seventh,F#mM7,minor_major_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_F","0,3,7,11",2,C#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F# minor_major_seventh,F#mM7,minor_major_seventh,Tone_F#,"Tone_F#, Tone_A, Tone_C#, Tone_F","0,3,7,11",3,F,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+F# ninth,F#9,ninth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14",root,F#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F# ninth,F#9,ninth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14",1,A#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F# ninth,F#9,ninth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14",2,C#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F# ninth,F#9,ninth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14",3,E,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F# ninth,F#9,ninth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14",4,G#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",root,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",1,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",2,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",3,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",4,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# eleventh,F#11,eleventh,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B","0,4,7,10,14,17",5,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",root,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",1,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",2,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",3,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",4,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",5,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# thirteenth,F#13,thirteenth,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_E, Tone_G#, Tone_B, Tone_D#","0,4,7,10,14,17,21",6,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+F# add9,F#add9,add9,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_G#","0,4,7,14",root,F#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# add9,F#add9,add9,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_G#","0,4,7,14",1,A#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# add9,F#add9,add9,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_G#","0,4,7,14",2,C#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# add9,F#add9,add9,Tone_F#,"Tone_F#, Tone_A#, Tone_C#, Tone_G#","0,4,7,14",3,G#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus2,F#sus2,sus2,Tone_F#,"Tone_F#, Tone_G#, Tone_C#","0,2,7",root,F#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus2,F#sus2,sus2,Tone_F#,"Tone_F#, Tone_G#, Tone_C#","0,2,7",1,G#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus2,F#sus2,sus2,Tone_F#,"Tone_F#, Tone_G#, Tone_C#","0,2,7",2,C#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus4,F#sus4,sus4,Tone_F#,"Tone_F#, Tone_B, Tone_C#","0,5,7",root,F#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus4,F#sus4,sus4,Tone_F#,"Tone_F#, Tone_B, Tone_C#","0,5,7",1,B,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+F# sus4,F#sus4,sus4,Tone_F#,"Tone_F#, Tone_B, Tone_C#","0,5,7",2,C#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G major,GM,major,Tone_G,"Tone_G, Tone_B, Tone_D","0,4,7",root,G,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G major,GM,major,Tone_G,"Tone_G, Tone_B, Tone_D","0,4,7",1,B,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G major,GM,major,Tone_G,"Tone_G, Tone_B, Tone_D","0,4,7",2,D,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G minor,Gm,minor,Tone_G,"Tone_G, Tone_A#, Tone_D","0,3,7",root,G,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G minor,Gm,minor,Tone_G,"Tone_G, Tone_A#, Tone_D","0,3,7",1,A#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G minor,Gm,minor,Tone_G,"Tone_G, Tone_A#, Tone_D","0,3,7",2,D,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G diminished,Gdim,diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#","0,3,6",root,G,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G diminished,Gdim,diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#","0,3,6",1,A#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G diminished,Gdim,diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#","0,3,6",2,C#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G augmented,Gaug,augmented,Tone_G,"Tone_G, Tone_B, Tone_D#","0,4,8",root,G,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G augmented,Gaug,augmented,Tone_G,"Tone_G, Tone_B, Tone_D#","0,4,8",1,B,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G augmented,Gaug,augmented,Tone_G,"Tone_G, Tone_B, Tone_D#","0,4,8",2,D#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G major_seventh,GM7,major_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,11",root,G,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G major_seventh,GM7,major_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,11",1,B,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G major_seventh,GM7,major_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,11",2,D,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G major_seventh,GM7,major_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,11",3,F#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G minor_seventh,Gm7,minor_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F","0,3,7,10",root,G,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_seventh,Gm7,minor_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F","0,3,7,10",1,A#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_seventh,Gm7,minor_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F","0,3,7,10",2,D,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_seventh,Gm7,minor_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F","0,3,7,10",3,F,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G dominant_seventh,G7,dominant_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F","0,4,7,10",root,G,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G dominant_seventh,G7,dominant_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F","0,4,7,10",1,B,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G dominant_seventh,G7,dominant_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F","0,4,7,10",2,D,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G dominant_seventh,G7,dominant_seventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F","0,4,7,10",3,F,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G diminished_seventh,Gdim7,diminished_seventh,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_E","0,3,6,9",root,G,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G diminished_seventh,Gdim7,diminished_seventh,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_E","0,3,6,9",1,A#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G diminished_seventh,Gdim7,diminished_seventh,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_E","0,3,6,9",2,C#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G diminished_seventh,Gdim7,diminished_seventh,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_E","0,3,6,9",3,E,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G half_diminished,Gm7b5,half_diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_F","0,3,6,10",root,G,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G half_diminished,Gm7b5,half_diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_F","0,3,6,10",1,A#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G half_diminished,Gm7b5,half_diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_F","0,3,6,10",2,C#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G half_diminished,Gm7b5,half_diminished,Tone_G,"Tone_G, Tone_A#, Tone_C#, Tone_F","0,3,6,10",3,F,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_major_seventh,GmM7,minor_major_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F#","0,3,7,11",root,G,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_major_seventh,GmM7,minor_major_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F#","0,3,7,11",1,A#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_major_seventh,GmM7,minor_major_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F#","0,3,7,11",2,D,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G minor_major_seventh,GmM7,minor_major_seventh,Tone_G,"Tone_G, Tone_A#, Tone_D, Tone_F#","0,3,7,11",3,F#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G ninth,G9,ninth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A","0,4,7,10,14",root,G,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G ninth,G9,ninth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A","0,4,7,10,14",1,B,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G ninth,G9,ninth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A","0,4,7,10,14",2,D,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G ninth,G9,ninth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A","0,4,7,10,14",3,F,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G ninth,G9,ninth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A","0,4,7,10,14",4,A,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",root,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",1,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",2,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",3,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",4,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G eleventh,G11,eleventh,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C","0,4,7,10,14,17",5,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",root,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",1,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",2,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",3,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",4,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",5,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G thirteenth,G13,thirteenth,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_F, Tone_A, Tone_C, Tone_E","0,4,7,10,14,17,21",6,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G add9,Gadd9,add9,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_A","0,4,7,14",root,G,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G add9,Gadd9,add9,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_A","0,4,7,14",1,B,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G add9,Gadd9,add9,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_A","0,4,7,14",2,D,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G add9,Gadd9,add9,Tone_G,"Tone_G, Tone_B, Tone_D, Tone_A","0,4,7,14",3,A,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus2,Gsus2,sus2,Tone_G,"Tone_G, Tone_A, Tone_D","0,2,7",root,G,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus2,Gsus2,sus2,Tone_G,"Tone_G, Tone_A, Tone_D","0,2,7",1,A,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus2,Gsus2,sus2,Tone_G,"Tone_G, Tone_A, Tone_D","0,2,7",2,D,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus4,Gsus4,sus4,Tone_G,"Tone_G, Tone_C, Tone_D","0,5,7",root,G,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus4,Gsus4,sus4,Tone_G,"Tone_G, Tone_C, Tone_D","0,5,7",1,C,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G sus4,Gsus4,sus4,Tone_G,"Tone_G, Tone_C, Tone_D","0,5,7",2,D,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# major,G#M,major,Tone_G#,"Tone_G#, Tone_C, Tone_D#","0,4,7",root,G#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G# major,G#M,major,Tone_G#,"Tone_G#, Tone_C, Tone_D#","0,4,7",1,C,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G# major,G#M,major,Tone_G#,"Tone_G#, Tone_C, Tone_D#","0,4,7",2,D#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+G# minor,G#m,minor,Tone_G#,"Tone_G#, Tone_B, Tone_D#","0,3,7",root,G#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G# minor,G#m,minor,Tone_G#,"Tone_G#, Tone_B, Tone_D#","0,3,7",1,B,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G# minor,G#m,minor,Tone_G#,"Tone_G#, Tone_B, Tone_D#","0,3,7",2,D#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+G# diminished,G#dim,diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D","0,3,6",root,G#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G# diminished,G#dim,diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D","0,3,6",1,B,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G# diminished,G#dim,diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D","0,3,6",2,D,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+G# augmented,G#aug,augmented,Tone_G#,"Tone_G#, Tone_C, Tone_E","0,4,8",root,G#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# augmented,G#aug,augmented,Tone_G#,"Tone_G#, Tone_C, Tone_E","0,4,8",1,C,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# augmented,G#aug,augmented,Tone_G#,"Tone_G#, Tone_C, Tone_E","0,4,8",2,E,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# major_seventh,G#M7,major_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,11",root,G#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G# major_seventh,G#M7,major_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,11",1,C,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G# major_seventh,G#M7,major_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,11",2,D#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G# major_seventh,G#M7,major_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,11",3,G,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+G# minor_seventh,G#m7,minor_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_F#","0,3,7,10",root,G#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_seventh,G#m7,minor_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_F#","0,3,7,10",1,B,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_seventh,G#m7,minor_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_F#","0,3,7,10",2,D#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_seventh,G#m7,minor_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_F#","0,3,7,10",3,F#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+G# dominant_seventh,G#7,dominant_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#","0,4,7,10",root,G#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G# dominant_seventh,G#7,dominant_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#","0,4,7,10",1,C,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G# dominant_seventh,G#7,dominant_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#","0,4,7,10",2,D#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G# dominant_seventh,G#7,dominant_seventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#","0,4,7,10",3,F#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+G# diminished_seventh,G#dim7,diminished_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F","0,3,6,9",root,G#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G# diminished_seventh,G#dim7,diminished_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F","0,3,6,9",1,B,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G# diminished_seventh,G#dim7,diminished_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F","0,3,6,9",2,D,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G# diminished_seventh,G#dim7,diminished_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F","0,3,6,9",3,F,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+G# half_diminished,G#m7b5,half_diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F#","0,3,6,10",root,G#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G# half_diminished,G#m7b5,half_diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F#","0,3,6,10",1,B,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G# half_diminished,G#m7b5,half_diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F#","0,3,6,10",2,D,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G# half_diminished,G#m7b5,half_diminished,Tone_G#,"Tone_G#, Tone_B, Tone_D, Tone_F#","0,3,6,10",3,F#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_major_seventh,G#mM7,minor_major_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_G","0,3,7,11",root,G#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_major_seventh,G#mM7,minor_major_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_G","0,3,7,11",1,B,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_major_seventh,G#mM7,minor_major_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_G","0,3,7,11",2,D#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G# minor_major_seventh,G#mM7,minor_major_seventh,Tone_G#,"Tone_G#, Tone_B, Tone_D#, Tone_G","0,3,7,11",3,G,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+G# ninth,G#9,ninth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14",root,G#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G# ninth,G#9,ninth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14",1,C,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G# ninth,G#9,ninth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14",2,D#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G# ninth,G#9,ninth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14",3,F#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G# ninth,G#9,ninth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#","0,4,7,10,14",4,A#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",root,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",1,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",2,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",3,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",4,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# eleventh,G#11,eleventh,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#","0,4,7,10,14,17",5,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",root,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",1,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",2,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",3,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",4,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",5,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# thirteenth,G#13,thirteenth,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_F#, Tone_A#, Tone_C#, Tone_F","0,4,7,10,14,17,21",6,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+G# add9,G#add9,add9,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_A#","0,4,7,14",root,G#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# add9,G#add9,add9,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_A#","0,4,7,14",1,C,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# add9,G#add9,add9,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_A#","0,4,7,14",2,D#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# add9,G#add9,add9,Tone_G#,"Tone_G#, Tone_C, Tone_D#, Tone_A#","0,4,7,14",3,A#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus2,G#sus2,sus2,Tone_G#,"Tone_G#, Tone_A#, Tone_D#","0,2,7",root,G#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus2,G#sus2,sus2,Tone_G#,"Tone_G#, Tone_A#, Tone_D#","0,2,7",1,A#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus2,G#sus2,sus2,Tone_G#,"Tone_G#, Tone_A#, Tone_D#","0,2,7",2,D#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus4,G#sus4,sus4,Tone_G#,"Tone_G#, Tone_C#, Tone_D#","0,5,7",root,G#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus4,G#sus4,sus4,Tone_G#,"Tone_G#, Tone_C#, Tone_D#","0,5,7",1,C#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+G# sus4,G#sus4,sus4,Tone_G#,"Tone_G#, Tone_C#, Tone_D#","0,5,7",2,D#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A major,AM,major,Tone_A,"Tone_A, Tone_C#, Tone_E","0,4,7",root,A,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A major,AM,major,Tone_A,"Tone_A, Tone_C#, Tone_E","0,4,7",1,C#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A major,AM,major,Tone_A,"Tone_A, Tone_C#, Tone_E","0,4,7",2,E,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A minor,Am,minor,Tone_A,"Tone_A, Tone_C, Tone_E","0,3,7",root,A,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A minor,Am,minor,Tone_A,"Tone_A, Tone_C, Tone_E","0,3,7",1,C,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A minor,Am,minor,Tone_A,"Tone_A, Tone_C, Tone_E","0,3,7",2,E,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A diminished,Adim,diminished,Tone_A,"Tone_A, Tone_C, Tone_D#","0,3,6",root,A,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A diminished,Adim,diminished,Tone_A,"Tone_A, Tone_C, Tone_D#","0,3,6",1,C,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A diminished,Adim,diminished,Tone_A,"Tone_A, Tone_C, Tone_D#","0,3,6",2,D#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A augmented,Aaug,augmented,Tone_A,"Tone_A, Tone_C#, Tone_F","0,4,8",root,A,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A augmented,Aaug,augmented,Tone_A,"Tone_A, Tone_C#, Tone_F","0,4,8",1,C#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A augmented,Aaug,augmented,Tone_A,"Tone_A, Tone_C#, Tone_F","0,4,8",2,F,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A major_seventh,AM7,major_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,11",root,A,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A major_seventh,AM7,major_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,11",1,C#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A major_seventh,AM7,major_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,11",2,E,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A major_seventh,AM7,major_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,11",3,G#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A minor_seventh,Am7,minor_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G","0,3,7,10",root,A,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_seventh,Am7,minor_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G","0,3,7,10",1,C,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_seventh,Am7,minor_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G","0,3,7,10",2,E,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_seventh,Am7,minor_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G","0,3,7,10",3,G,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A dominant_seventh,A7,dominant_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G","0,4,7,10",root,A,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A dominant_seventh,A7,dominant_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G","0,4,7,10",1,C#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A dominant_seventh,A7,dominant_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G","0,4,7,10",2,E,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A dominant_seventh,A7,dominant_seventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G","0,4,7,10",3,G,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A diminished_seventh,Adim7,diminished_seventh,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_F#","0,3,6,9",root,A,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A diminished_seventh,Adim7,diminished_seventh,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_F#","0,3,6,9",1,C,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A diminished_seventh,Adim7,diminished_seventh,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_F#","0,3,6,9",2,D#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A diminished_seventh,Adim7,diminished_seventh,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_F#","0,3,6,9",3,F#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A half_diminished,Am7b5,half_diminished,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_G","0,3,6,10",root,A,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A half_diminished,Am7b5,half_diminished,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_G","0,3,6,10",1,C,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A half_diminished,Am7b5,half_diminished,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_G","0,3,6,10",2,D#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A half_diminished,Am7b5,half_diminished,Tone_A,"Tone_A, Tone_C, Tone_D#, Tone_G","0,3,6,10",3,G,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_major_seventh,AmM7,minor_major_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G#","0,3,7,11",root,A,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_major_seventh,AmM7,minor_major_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G#","0,3,7,11",1,C,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_major_seventh,AmM7,minor_major_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G#","0,3,7,11",2,E,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A minor_major_seventh,AmM7,minor_major_seventh,Tone_A,"Tone_A, Tone_C, Tone_E, Tone_G#","0,3,7,11",3,G#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A ninth,A9,ninth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B","0,4,7,10,14",root,A,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A ninth,A9,ninth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B","0,4,7,10,14",1,C#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A ninth,A9,ninth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B","0,4,7,10,14",2,E,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A ninth,A9,ninth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B","0,4,7,10,14",3,G,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A ninth,A9,ninth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B","0,4,7,10,14",4,B,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",root,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",1,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",2,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",3,G,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",4,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A eleventh,A11,eleventh,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D","0,4,7,10,14,17",5,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",root,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",1,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",2,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",3,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",4,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",5,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A thirteenth,A13,thirteenth,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_G, Tone_B, Tone_D, Tone_F#","0,4,7,10,14,17,21",6,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A add9,Aadd9,add9,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_B","0,4,7,14",root,A,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A add9,Aadd9,add9,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_B","0,4,7,14",1,C#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A add9,Aadd9,add9,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_B","0,4,7,14",2,E,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A add9,Aadd9,add9,Tone_A,"Tone_A, Tone_C#, Tone_E, Tone_B","0,4,7,14",3,B,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus2,Asus2,sus2,Tone_A,"Tone_A, Tone_B, Tone_E","0,2,7",root,A,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus2,Asus2,sus2,Tone_A,"Tone_A, Tone_B, Tone_E","0,2,7",1,B,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus2,Asus2,sus2,Tone_A,"Tone_A, Tone_B, Tone_E","0,2,7",2,E,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus4,Asus4,sus4,Tone_A,"Tone_A, Tone_D, Tone_E","0,5,7",root,A,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus4,Asus4,sus4,Tone_A,"Tone_A, Tone_D, Tone_E","0,5,7",1,D,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A sus4,Asus4,sus4,Tone_A,"Tone_A, Tone_D, Tone_E","0,5,7",2,E,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# major,A#M,major,Tone_A#,"Tone_A#, Tone_D, Tone_F","0,4,7",root,A#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A# major,A#M,major,Tone_A#,"Tone_A#, Tone_D, Tone_F","0,4,7",1,D,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A# major,A#M,major,Tone_A#,"Tone_A#, Tone_D, Tone_F","0,4,7",2,F,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+A# minor,A#m,minor,Tone_A#,"Tone_A#, Tone_C#, Tone_F","0,3,7",root,A#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A# minor,A#m,minor,Tone_A#,"Tone_A#, Tone_C#, Tone_F","0,3,7",1,C#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A# minor,A#m,minor,Tone_A#,"Tone_A#, Tone_C#, Tone_F","0,3,7",2,F,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+A# diminished,A#dim,diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E","0,3,6",root,A#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A# diminished,A#dim,diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E","0,3,6",1,C#,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A# diminished,A#dim,diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E","0,3,6",2,E,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+A# augmented,A#aug,augmented,Tone_A#,"Tone_A#, Tone_D, Tone_F#","0,4,8",root,A#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# augmented,A#aug,augmented,Tone_A#,"Tone_A#, Tone_D, Tone_F#","0,4,8",1,D,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# augmented,A#aug,augmented,Tone_A#,"Tone_A#, Tone_D, Tone_F#","0,4,8",2,F#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# major_seventh,A#M7,major_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,11",root,A#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A# major_seventh,A#M7,major_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,11",1,D,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A# major_seventh,A#M7,major_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,11",2,F,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A# major_seventh,A#M7,major_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_A","0,4,7,11",3,A,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+A# minor_seventh,A#m7,minor_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_G#","0,3,7,10",root,A#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_seventh,A#m7,minor_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_G#","0,3,7,10",1,C#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_seventh,A#m7,minor_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_G#","0,3,7,10",2,F,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_seventh,A#m7,minor_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_G#","0,3,7,10",3,G#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+A# dominant_seventh,A#7,dominant_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#","0,4,7,10",root,A#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A# dominant_seventh,A#7,dominant_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#","0,4,7,10",1,D,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A# dominant_seventh,A#7,dominant_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#","0,4,7,10",2,F,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A# dominant_seventh,A#7,dominant_seventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#","0,4,7,10",3,G#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+A# diminished_seventh,A#dim7,diminished_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G","0,3,6,9",root,A#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A# diminished_seventh,A#dim7,diminished_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G","0,3,6,9",1,C#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A# diminished_seventh,A#dim7,diminished_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G","0,3,6,9",2,E,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A# diminished_seventh,A#dim7,diminished_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G","0,3,6,9",3,G,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+A# half_diminished,A#m7b5,half_diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G#","0,3,6,10",root,A#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A# half_diminished,A#m7b5,half_diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G#","0,3,6,10",1,C#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A# half_diminished,A#m7b5,half_diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G#","0,3,6,10",2,E,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A# half_diminished,A#m7b5,half_diminished,Tone_A#,"Tone_A#, Tone_C#, Tone_E, Tone_G#","0,3,6,10",3,G#,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_major_seventh,A#mM7,minor_major_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_A","0,3,7,11",root,A#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_major_seventh,A#mM7,minor_major_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_A","0,3,7,11",1,C#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_major_seventh,A#mM7,minor_major_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_A","0,3,7,11",2,F,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A# minor_major_seventh,A#mM7,minor_major_seventh,Tone_A#,"Tone_A#, Tone_C#, Tone_F, Tone_A","0,3,7,11",3,A,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+A# ninth,A#9,ninth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C","0,4,7,10,14",root,A#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A# ninth,A#9,ninth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C","0,4,7,10,14",1,D,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A# ninth,A#9,ninth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C","0,4,7,10,14",2,F,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A# ninth,A#9,ninth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C","0,4,7,10,14",3,G#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A# ninth,A#9,ninth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C","0,4,7,10,14",4,C,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",root,A#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",1,D,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",2,F,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",3,G#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",4,C,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# eleventh,A#11,eleventh,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#","0,4,7,10,14,17",5,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",root,A#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",1,D,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",2,F,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",3,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",4,C,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",5,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# thirteenth,A#13,thirteenth,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_G#, Tone_C, Tone_D#, Tone_G","0,4,7,10,14,17,21",6,G,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+A# add9,A#add9,add9,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_C","0,4,7,14",root,A#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# add9,A#add9,add9,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_C","0,4,7,14",1,D,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# add9,A#add9,add9,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_C","0,4,7,14",2,F,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# add9,A#add9,add9,Tone_A#,"Tone_A#, Tone_D, Tone_F, Tone_C","0,4,7,14",3,C,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus2,A#sus2,sus2,Tone_A#,"Tone_A#, Tone_C, Tone_F","0,2,7",root,A#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus2,A#sus2,sus2,Tone_A#,"Tone_A#, Tone_C, Tone_F","0,2,7",1,C,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus2,A#sus2,sus2,Tone_A#,"Tone_A#, Tone_C, Tone_F","0,2,7",2,F,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus4,A#sus4,sus4,Tone_A#,"Tone_A#, Tone_D#, Tone_F","0,5,7",root,A#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus4,A#sus4,sus4,Tone_A#,"Tone_A#, Tone_D#, Tone_F","0,5,7",1,D#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+A# sus4,A#sus4,sus4,Tone_A#,"Tone_A#, Tone_D#, Tone_F","0,5,7",2,F,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B major,BM,major,Tone_B,"Tone_B, Tone_D#, Tone_F#","0,4,7",root,B,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+B major,BM,major,Tone_B,"Tone_B, Tone_D#, Tone_F#","0,4,7",1,D#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+B major,BM,major,Tone_B,"Tone_B, Tone_D#, Tone_F#","0,4,7",2,F#,major,none,none,"I-vi-IV-V, vi-IV-I-V",major_scale,1:5/4:3/2
+B minor,Bm,minor,Tone_B,"Tone_B, Tone_D, Tone_F#","0,3,7",root,B,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+B minor,Bm,minor,Tone_B,"Tone_B, Tone_D, Tone_F#","0,3,7",1,D,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+B minor,Bm,minor,Tone_B,"Tone_B, Tone_D, Tone_F#","0,3,7",2,F#,minor,none,3,"I-vi-IV-V, vi-IV-I-V",natural_minor_scale,1:6/5:3/2
+B diminished,Bdim,diminished,Tone_B,"Tone_B, Tone_D, Tone_F","0,3,6",root,B,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+B diminished,Bdim,diminished,Tone_B,"Tone_B, Tone_D, Tone_F","0,3,6",1,D,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+B diminished,Bdim,diminished,Tone_B,"Tone_B, Tone_D, Tone_F","0,3,6",2,F,diminished,none,"3,6","I-ii-V-I, I-IV-V-I",chromatic_or_modal,
+B augmented,Baug,augmented,Tone_B,"Tone_B, Tone_D#, Tone_G","0,4,8",root,B,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B augmented,Baug,augmented,Tone_B,"Tone_B, Tone_D#, Tone_G","0,4,8",1,D#,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B augmented,Baug,augmented,Tone_B,"Tone_B, Tone_D#, Tone_G","0,4,8",2,G,augmented,none,8,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B major_seventh,BM7,major_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,11",root,B,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+B major_seventh,BM7,major_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,11",1,D#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+B major_seventh,BM7,major_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,11",2,F#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+B major_seventh,BM7,major_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A#","0,4,7,11",3,A#,major,none,11,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:15/8
+B minor_seventh,Bm7,minor_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A","0,3,7,10",root,B,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_seventh,Bm7,minor_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A","0,3,7,10",1,D,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_seventh,Bm7,minor_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A","0,3,7,10",2,F#,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_seventh,Bm7,minor_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A","0,3,7,10",3,A,minor,none,3,"ii-V-I, IV-V-I",chromatic_or_modal,
+B dominant_seventh,B7,dominant_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A","0,4,7,10",root,B,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+B dominant_seventh,B7,dominant_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A","0,4,7,10",1,D#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+B dominant_seventh,B7,dominant_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A","0,4,7,10",2,F#,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+B dominant_seventh,B7,dominant_seventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A","0,4,7,10",3,A,dominant,none,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9
+B diminished_seventh,Bdim7,diminished_seventh,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_G#","0,3,6,9",root,B,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+B diminished_seventh,Bdim7,diminished_seventh,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_G#","0,3,6,9",1,D,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+B diminished_seventh,Bdim7,diminished_seventh,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_G#","0,3,6,9",2,F,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+B diminished_seventh,Bdim7,diminished_seventh,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_G#","0,3,6,9",3,G#,diminished,none,"3,6,9","ii-V-I, IV-V-I",chromatic_or_modal,
+B half_diminished,Bm7b5,half_diminished,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_A","0,3,6,10",root,B,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+B half_diminished,Bm7b5,half_diminished,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_A","0,3,6,10",1,D,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+B half_diminished,Bm7b5,half_diminished,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_A","0,3,6,10",2,F,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+B half_diminished,Bm7b5,half_diminished,Tone_B,"Tone_B, Tone_D, Tone_F, Tone_A","0,3,6,10",3,A,half-diminished,none,"3,6","ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_major_seventh,BmM7,minor_major_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A#","0,3,7,11",root,B,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_major_seventh,BmM7,minor_major_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A#","0,3,7,11",1,D,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_major_seventh,BmM7,minor_major_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A#","0,3,7,11",2,F#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+B minor_major_seventh,BmM7,minor_major_seventh,Tone_B,"Tone_B, Tone_D, Tone_F#, Tone_A#","0,3,7,11",3,A#,minor,none,"3,11","ii-V-I, IV-V-I",chromatic_or_modal,
+B ninth,B9,ninth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14",root,B,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+B ninth,B9,ninth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14",1,D#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+B ninth,B9,ninth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14",2,F#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+B ninth,B9,ninth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14",3,A,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+B ninth,B9,ninth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#","0,4,7,10,14",4,C#,dominant,14,none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",root,B,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",1,D#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",2,F#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",3,A,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",4,C#,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B eleventh,B11,eleventh,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E","0,4,7,10,14,17",5,E,dominant,"14,17",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",root,B,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",1,D#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",2,F#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",3,A,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",4,C#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",5,E,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B thirteenth,B13,thirteenth,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_A, Tone_C#, Tone_E, Tone_G#","0,4,7,10,14,17,21",6,G#,dominant,"14,17,21",none,"ii-V-I, IV-V-I",chromatic_or_modal,1:5/4:3/2:16/9:9/4:11/4:13/4
+B add9,Badd9,add9,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_C#","0,4,7,14",root,B,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B add9,Badd9,add9,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_C#","0,4,7,14",1,D#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B add9,Badd9,add9,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_C#","0,4,7,14",2,F#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B add9,Badd9,add9,Tone_B,"Tone_B, Tone_D#, Tone_F#, Tone_C#","0,4,7,14",3,C#,added-tone,14,none,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus2,Bsus2,sus2,Tone_B,"Tone_B, Tone_C#, Tone_F#","0,2,7",root,B,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus2,Bsus2,sus2,Tone_B,"Tone_B, Tone_C#, Tone_F#","0,2,7",1,C#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus2,Bsus2,sus2,Tone_B,"Tone_B, Tone_C#, Tone_F#","0,2,7",2,F#,suspended,none,2,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus4,Bsus4,sus4,Tone_B,"Tone_B, Tone_E, Tone_F#","0,5,7",root,B,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus4,Bsus4,sus4,Tone_B,"Tone_B, Tone_E, Tone_F#","0,5,7",1,E,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,
+B sus4,Bsus4,sus4,Tone_B,"Tone_B, Tone_E, Tone_F#","0,5,7",2,F#,suspended,none,5,"I-vi-IV-V, vi-IV-I-V",chromatic_or_modal,

@@ -1,0 +1,116 @@
+#pragma once
+
+#include <JuceHeader.h>
+#include <sqlite3.h>
+#include <memory>
+
+//==============================================================================
+struct ChordAnalysisResult
+{
+    juce::String chordSymbol;
+    juce::String chordQuality;
+    juce::String rootNote;
+    juce::String bassNote;
+    juce::StringArray chordTones;
+    juce::StringArray intervals;
+    float confidence;
+    juce::StringArray alternatives;
+};
+
+struct IntervalAnalysisResult
+{
+    juce::String intervalName;
+    int semitones;
+    juce::String consonanceLevel;
+    float roughnessIndex;
+    float beatFrequency;
+    juce::String frequencyRatio;
+};
+
+struct ScaleAnalysisResult
+{
+    juce::String scaleName;
+    juce::String modeName;
+    juce::StringArray scaleDegrees;
+    juce::String harmonicTensionLevel;
+    juce::StringArray characteristicChords;
+};
+
+struct HarmonicAnalysisContext
+{
+    juce::Array<int> midiNotes;
+    double timestamp;
+    ChordAnalysisResult primaryChord;
+    juce::Array<IntervalAnalysisResult> intervals;
+    ScaleAnalysisResult suggestedScale;
+    float overallConfidence;
+};
+
+//==============================================================================
+class DatabaseManager
+{
+public:
+    DatabaseManager();
+    ~DatabaseManager();
+
+    //==============================================================================
+    // Database lifecycle
+    bool initialize(const juce::File& databaseFile);
+    void shutdown();
+    bool isInitialized() const { return database != nullptr; }
+
+    //==============================================================================
+    // Harmonic analysis queries
+    ChordAnalysisResult analyzeChord(const juce::Array<int>& midiNotes);
+    juce::Array<IntervalAnalysisResult> analyzeIntervals(const juce::Array<int>& midiNotes);
+    ScaleAnalysisResult suggestScale(const juce::Array<ChordAnalysisResult>& chordProgression);
+    
+    // Complete harmonic context analysis
+    HarmonicAnalysisContext analyzeHarmonicContext(const juce::Array<int>& midiNotes, double timestamp = 0.0);
+
+    //==============================================================================
+    // Music theory lookups
+    juce::String getNoteNameFromMIDI(int midiNote);
+    float getFrequencyFromMIDI(int midiNote, bool use432Hz = false);
+    juce::String getIntervalName(int semitones);
+    juce::StringArray getScaleDegrees(const juce::String& scaleName);
+
+    //==============================================================================
+    // Functional harmony analysis
+    juce::String analyzeRomanNumerals(const juce::Array<ChordAnalysisResult>& chords, const juce::String& key);
+    juce::StringArray suggestChordSubstitutions(const ChordAnalysisResult& chord, const juce::String& context);
+    juce::String analyzeVoiceLeading(const juce::Array<juce::Array<int>>& voicings);
+
+    //==============================================================================
+    // Database statistics and validation
+    int getTotalChords() const;
+    int getTotalScales() const;
+    int getTotalIntervals() const;
+    bool validateDatabaseIntegrity();
+
+private:
+    //==============================================================================
+    sqlite3* database { nullptr };
+    juce::CriticalSection databaseMutex;
+
+    //==============================================================================
+    // Query helpers
+    bool executeQuery(const juce::String& sql, sqlite3_stmt** statement);
+    ChordAnalysisResult parseChordResult(sqlite3_stmt* statement);
+    IntervalAnalysisResult parseIntervalResult(sqlite3_stmt* statement);
+    ScaleAnalysisResult parseScaleResult(sqlite3_stmt* statement);
+
+    //==============================================================================
+    // Pattern matching algorithms
+    float calculateChordConfidence(const juce::Array<int>& midiNotes, const ChordAnalysisResult& chord);
+    juce::String createNotesPattern(const juce::Array<int>& midiNotes);
+    juce::Array<int> normalizeToOctave(const juce::Array<int>& midiNotes);
+
+    //==============================================================================
+    // Database schema validation
+    bool checkTableExists(const juce::String& tableName);
+    bool validateSchema();
+    void logDatabaseError(const juce::String& operation);
+
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR(DatabaseManager)
+};

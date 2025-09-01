@@ -1,0 +1,62 @@
+notation_type,symbol_name,symbol_unicode,symbol_ascii,duration_value,relative_duration,staff_position,clef_dependency,function_category,visual_description,musical_effect,usage_context,historical_period,alternative_names,stem_direction,beam_capability,dot_capability,tie_capability,slur_capability
+Accidental,Double Flat,𝄫,bb,,Lowers pitch whole tone,Before note,All clefs,Pitch Alteration,Two flat symbols,Lowers pitch by whole tone,Extreme chromatic alterations,Baroque to Modern,,,0,0,0,0
+Accidental,Double Sharp,𝄪,x,,Raises pitch whole tone,Before note,All clefs,Pitch Alteration,X-like symbol,Raises pitch by whole tone,Extreme chromatic alterations,Baroque to Modern,,,0,0,0,0
+Accidental,Flat,♭,b,,Lowers pitch semitone,Before note,All clefs,Pitch Alteration,Rounded b-like symbol,Lowers pitch by semitone,Chromatic alterations,Medieval to Modern,,,0,0,0,0
+Accidental,Natural,♮,n,,Cancels previous accidental,Before note,All clefs,Pitch Alteration,Square with vertical lines,Cancels sharp or flat,Returning to natural pitch,Renaissance to Modern,,,0,0,0,0
+Accidental,Sharp,♯,#,,Raises pitch semitone,Before note,All clefs,Pitch Alteration,Hash-like symbol,Raises pitch by semitone,Chromatic alterations,Medieval to Modern,,,0,0,0,0
+Articulation,Accent,𝄐,>,,Emphasized attack,Above or below note,All clefs,Articulation,Wedge or angle symbol,Strong note emphasis,"Important notes, beats",Classical to Modern,Sforzando,,0,0,0,0
+Articulation,Marcato,^,^,,Strongly marked,Above or below note,All clefs,Articulation,Roof-like accent,Very strong emphasis,Dramatic emphasis,Romantic to Modern,Strong accent,,0,0,0,0
+Articulation,Staccato,𝄐,.,,Short and detached,Above or below note,All clefs,Articulation,Small dot,Shortened note value,"Crisp, separated notes",Baroque to Modern,Detached,,0,0,0,0
+Articulation,Tenuto,𝄑,-,,Held full value,Above or below note,All clefs,Articulation,Short horizontal line,Note held for full duration,"Sustained, connected",Romantic to Modern,Held,,0,0,0,0
+Bar Line,Double Bar,||,||,,Section ending,Double vertical lines,All clefs,Structure,Two vertical lines,Marks section end,Formal divisions,Renaissance to Modern,Double bar line,,0,0,0,0
+Bar Line,Final Bar,|],|],,Piece ending,Thick double bar,All clefs,Structure,Thin and thick vertical lines,Marks composition end,Conclusion,Renaissance to Modern,Final double bar,,0,0,0,0
+Bar Line,Single Bar,|,|,,Measure division,Vertical line through staff,All clefs,Structure,Single vertical line,Separates measures,Basic metric organization,Medieval to Modern,Bar line,,0,0,0,0
+Clef,Alto Clef,𝄡,C,,Pitch reference,Third line (C4),Alto,Pitch Reference,Stylized C shape,Sets C4 as reference pitch,"Viola, alto voice",Renaissance to Modern,C Clef,,0,0,0,0
+Clef,Bass Clef,𝄢,F,,Pitch reference,Fourth line (F3),Bass,Pitch Reference,Symbol with two dots,Sets F3 as reference pitch,Low voices and instruments,Medieval to Modern,F Clef,,0,0,0,0
+Clef,Tenor Clef,𝄡,C,,Pitch reference,Fourth line (C4),Tenor,Pitch Reference,Stylized C shape on fourth line,Sets C4 as reference pitch,"Tenor voice, cello",Renaissance to Modern,Moveable C Clef,,0,0,0,0
+Clef,Treble Clef,𝄞,G,,Pitch reference,Second line (G4),Treble,Pitch Reference,Spiral symbol on second line,Sets G4 as reference pitch,High voices and instruments,Medieval to Modern,G Clef,,0,0,0,0
+Dynamic,Forte,f,f,,Loud,Below staff,All clefs,Volume,Single f letter,"Strong, loud playing","Bold, powerful music",Baroque to Modern,Loud,,0,0,0,0
+Dynamic,Fortissimo,ff,ff,,Very loud,Below staff,All clefs,Volume,Double f letters,Very strong playing,"Climactic, powerful passages",Baroque to Modern,Very loud,,0,0,0,0
+Dynamic,Mezzo Forte,mf,mf,,Medium loud,Below staff,All clefs,Volume,Letters mf,Moderately loud,"Balanced, not too loud",Classical to Modern,Medium loud,,0,0,0,0
+Dynamic,Mezzo Piano,mp,mp,,Medium soft,Below staff,All clefs,Volume,Letters mp,Moderately quiet,"Balanced, not too soft",Classical to Modern,Medium soft,,0,0,0,0
+Dynamic,Pianissimo,pp,pp,,Very soft,Below staff,All clefs,Volume,Double p letters,Very quiet playing,"Soft, delicate passages",Baroque to Modern,Very soft,,0,0,0,0
+Dynamic,Piano,p,p,,Soft,Below staff,All clefs,Volume,Single p letter,Quiet playing,"Gentle, subdued music",Baroque to Modern,Soft,,0,0,0,0
+Expression,Accelerando,accel.,accel.,,Gradually faster,Above staff,All clefs,Tempo,Abbreviated text,Speeding up tempo,Building excitement,Classical to Modern,Stringendo,,0,0,0,0
+Expression,Fermata,𝄐,U,,Hold longer than written,Above or below note,All clefs,Duration,Arc with dot underneath,Extends note indefinitely,"Cadences, expressive holds",Renaissance to Modern,"Pause, Bird's eye",,0,0,0,0
+Expression,Ritardando,rit.,rit.,,Gradually slower,Above staff,All clefs,Tempo,Abbreviated text,Slowing down tempo,Musical phrase endings,Classical to Modern,Rallentando,,0,0,0,0
+Expression,Slur,𝄱,(),,Smooth connection,Curves over/under notes,All clefs,Phrasing,Curved line connecting notes,"Legato, smooth playing","Musical phrases, breathing",Renaissance to Modern,Legato line,,0,0,0,1
+Expression,Tie,𝄱,~,,Connects same pitches,Curves between same notes,All clefs,Duration,Curved line between identical pitches,Extends note duration,Sustaining across bar lines,Medieval to Modern,Bind,,0,0,1,0
+Key Signature,C Major,No accidentals,,,Natural major scale,After clef,All clefs,Tonality,No sharps or flats,Natural pitches only,"Simple, common key",Medieval to Modern,A minor relative,,0,0,0,0
+Key Signature,D Major,"Two sharps (F#, C#)",##,,Two sharp major scale,After clef,All clefs,Tonality,F# and C# in signature,F and C sharp throughout,String-friendly key,Baroque to Modern,B minor relative,,0,0,0,0
+Key Signature,F Major,One flat (B♭),b,,One flat major scale,After clef,All clefs,Tonality,B♭ in key signature,B flat throughout,"Warm, common key",Renaissance to Modern,D minor relative,,0,0,0,0
+Key Signature,G Major,One sharp (F#),#,,One sharp major scale,After clef,All clefs,Tonality,F# in key signature,F sharp throughout,"Bright, common key",Renaissance to Modern,E minor relative,,0,0,0,0
+Modern,Glissando,~~~~~,gliss,,Sliding pitch,Line between notes,All clefs,Technique,Wavy or straight line,Continuous pitch slide,Expressive technique,Romantic to Modern,Portamento,,0,0,0,0
+Modern,Tremolo,//,//,,Rapid repetition,Through stem or between notes,All clefs,Technique,Diagonal slashes,Rapid note repetition,Trembling effect,Romantic to Modern,Measured tremolo,,0,0,0,0
+Note Value,Eighth Note,𝅘𝅥𝅮,e,0.5,1/2 beat in 4/4 time,Staff Line or Space,All clefs,Duration,Filled oval with stem and flag,Half beat duration,Fast melodic passages,Renaissance to Modern,Quaver,Up or Down,1,1,1,1
+Note Value,Half Note,𝅗𝅥,d,2.0,2 beats in 4/4 time,Staff Line or Space,All clefs,Duration,Open oval with stem,Two beat duration,Medium duration notes,Medieval to Modern,Minim,Up or Down,0,1,1,1
+Note Value,Quarter Note,𝅘𝅥,q,1.0,1 beat in 4/4 time,Staff Line or Space,All clefs,Duration,Filled oval with stem,One beat duration,Standard beat unit,Medieval to Modern,Crotchet,Up or Down,1,1,1,1
+Note Value,Sixteenth Note,𝅘𝅥𝅯,s,0.25,1/4 beat in 4/4 time,Staff Line or Space,All clefs,Duration,Filled oval with stem and double flag,Quarter beat duration,Very fast passages,Baroque to Modern,Semiquaver,Up or Down,1,1,1,1
+Note Value,Thirty-second Note,𝅘𝅥𝅰,t,0.125,1/8 beat in 4/4 time,Staff Line or Space,All clefs,Duration,Filled oval with stem and triple flag,Eighth beat duration,Extremely fast passages,Classical to Modern,Demisemiquaver,Up or Down,1,1,1,1
+Note Value,Whole Note,𝅝,o,4.0,4 beats in 4/4 time,Staff Line or Space,All clefs,Duration,Open oval note head,Four beat duration,Long sustained notes,Medieval to Modern,Semibreve,,0,1,1,1
+Ornament,Acciaccatura,Grace note,grace,,Crushed note,Before main note,All clefs,Ornamentation,Small note with slash,Very brief ornamental note,Quick decoration,Baroque to Modern,Crushed note,,0,0,0,0
+Ornament,Appoggiatura,Small note,app,,Accented grace note,Before main note,All clefs,Ornamentation,Small note with slash,Emphasized dissonant approach,Expressive emphasis,Baroque to Modern,Leaning note,,0,0,0,0
+Ornament,Mordent,𝄔,M,,Quick neighbor note,Above note,All clefs,Ornamentation,Wavy line with vertical stroke,Quick upper/lower note,Brief embellishment,Baroque to Modern,Bite,,0,0,0,0
+Ornament,Trill,𝄓,tr,,Rapid alternation,Above note,All clefs,Ornamentation,tr with wavy line,Rapid note alternation,Decorative embellishment,Baroque to Modern,Shake,,0,0,0,0
+Ornament,Turn,𝄕,S,,Four-note figure,Above note,All clefs,Ornamentation,S-like curve symbol,Upper-main-lower-main pattern,Melodic decoration,Baroque to Modern,Gruppetto,,0,0,0,0
+Repeat,Da Capo,D.C.,D.C.,,Return to beginning,Above staff,All clefs,Structure,Abbreviated text,Go back to start,Structural return,Baroque to Modern,From the head,,0,0,0,0
+Repeat,Dal Segno,D.S.,D.S.,,Return to sign,Above staff,All clefs,Structure,Abbreviated text,Go back to sign,Mid-piece return,Baroque to Modern,From the sign,,0,0,0,0
+Repeat,First Ending,1,1,,First time ending,Above staff,All clefs,Structure,Bracket with number 1,Play first time only,Alternative endings,Renaissance to Modern,Prima volta,,0,0,0,0
+Repeat,Repeat Beginning,𝄆,|:,,Start of repeat section,Bar line,All clefs,Structure,Double bar with two dots,Beginning of repeated section,Structural organization,Renaissance to Modern,Left repeat,,0,0,0,0
+Repeat,Repeat Ending,𝄇,:|,,End of repeat section,Bar line,All clefs,Structure,Double bar with two dots,End of repeated section,Structural organization,Renaissance to Modern,Right repeat,,0,0,0,0
+Repeat,Second Ending,2,2,,Second time ending,Above staff,All clefs,Structure,Bracket with number 2,Play second time only,Alternative endings,Renaissance to Modern,Seconda volta,,0,0,0,0
+Rest,Eighth Rest,𝄾,E,0.5,1/2 beat silence in 4/4,Staff area,All clefs,Silence,Single flag with tail,Half beat silence,Brief pauses,Renaissance to Modern,Quaver rest,,0,1,0,0
+Rest,Half Rest,𝄼,r,2.0,2 beats silence in 4/4,Above staff line,All clefs,Silence,Filled rectangle sitting on line,Two beat silence,Mid-phrase breaks,Medieval to Modern,Minim rest,,0,1,0,0
+Rest,Quarter Rest,𝄽,Q,1.0,1 beat silence in 4/4,Staff area,All clefs,Silence,Curved flag-like symbol,One beat silence,Short pauses,Medieval to Modern,Crotchet rest,,0,1,0,0
+Rest,Sixteenth Rest,𝄿,S,0.25,1/4 beat silence in 4/4,Staff area,All clefs,Silence,Double flag with tail,Quarter beat silence,Very brief pauses,Baroque to Modern,Semiquaver rest,,0,1,0,0
+Rest,Whole Rest,𝄻,R,4.0,4 beats silence in 4/4,Below staff line,All clefs,Silence,Filled rectangle hanging from line,Four beat silence,Full measure rest,Medieval to Modern,Semibreve rest,,0,1,0,0
+Staff Extension,Ledger Line,___,_,,Extends staff range,Above/below staff,All clefs,Pitch Extension,Short horizontal lines,Allows notes beyond staff,Extended pitch range,Renaissance to Modern,Leger line,,0,0,0,0
+Time Signature,Common Time,𝄴,C,,4/4 time signature,After clef,All clefs,Meter,Large C symbol,Four quarter note beats per measure,Most common meter,Renaissance to Modern,4/4 time,,0,0,0,0
+Time Signature,Cut Time,𝄵,C/,,2/2 time signature,After clef,All clefs,Meter,C with vertical line,Two half note beats per measure,Fast duple meter,Baroque to Modern,Alla breve,,0,0,0,0
+Time Signature,Four Four Time,4/4,4/4,,Four quarter beats,After clef,All clefs,Meter,Numbers 4 over 4,Four quarter note beats per measure,Standard duple meter,Renaissance to Modern,Common time,,0,0,0,0
+Time Signature,Three Four Time,3/4,3/4,,Three quarter beats,After clef,All clefs,Meter,Numbers 3 over 4,Three quarter note beats per measure,"Waltz time, triple meter",Renaissance to Modern,Triple time,,0,0,0,0
+Time Signature,Two Four Time,2/4,2/4,,Two quarter beats,After clef,All clefs,Meter,Numbers 2 over 4,Two quarter note beats per measure,"March time, simple duple",Classical to Modern,Duple time,,0,0,0,0

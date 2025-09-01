@@ -1,0 +1,28 @@
+scale_id,scale_name,mode_name,scale_family,number_of_notes,scale_degrees,cultural_association,common_uses,harmonic_tension_level
+major_ionian,Major,Ionian,Diatonic,7,"1,2,3,4,5,6,7",Western Classical,Classical/Pop/Folk,low
+natural_minor_aeolian,Natural Minor,Aeolian,Diatonic,7,"1,2,♭3,4,5,♭6,♭7",Western Classical,Classical/Folk/Rock,
+dorian,Dorian,Dorian,Diatonic,7,"1,2,♭3,4,5,6,♭7",Celtic/Medieval,Jazz/Folk/Celtic,medium
+phrygian,Phrygian,Phrygian,Diatonic,7,"1,♭2,♭3,4,5,♭6,♭7",Spanish/Flamenco,Flamenco/Metal/Classical,
+lydian,Lydian,Lydian,Diatonic,7,"1,2,3,#4,5,6,7",Western Classical,Jazz/Film Scoring,
+mixolydian,Mixolydian,Mixolydian,Diatonic,7,"1,2,3,4,5,6,♭7",Celtic/Blues,Blues/Rock/Celtic,medium
+locrian,Locrian,Locrian,Diatonic,7,"1,♭2,♭3,4,♭5,♭6,♭7",Theoretical,Jazz/Experimental,high
+harmonic_minor,Harmonic Minor,N/A,Harmonic Minor,7,"1,2,♭3,4,5,♭6,7",Eastern European,Classical/Gypsy/Metal,
+melodic_minor_ascending,Melodic Minor Ascending,N/A,Melodic Minor,7,"1,2,♭3,4,5,6,7",Western Classical,Classical/Jazz,
+pentatonic_major,Pentatonic Major,N/A,Pentatonic,5,"1,2,3,5,6",Asian/Universal,Folk/Pop/Rock,low
+pentatonic_minor,Pentatonic Minor,N/A,Pentatonic,5,"1,♭3,4,5,♭7",Asian/Blues,Blues/Rock/Folk,
+blues_scale,Blues Scale,N/A,Blues,6,"1,♭3,4,♭5,5,♭7",African American,Blues/Jazz/Rock,
+chromatic,Chromatic,N/A,Chromatic,12,"1,♭2,2,♭3,3,4,♭5,5,♭6,6,♭7,7",Western Art Music,Atonal/Experimental,
+whole_tone,Whole Tone,N/A,Whole Tone,6,"1,2,3,♯4,♯5,♯6",Impressionist,Impressionist/Jazz,extreme
+diminished_half_whole,Diminished Half Whole,N/A,Diminished,8,"1,♭2,♭3,3,♯4,5,6,♭7",Western Jazz,Jazz/Classical,extreme
+diminished_whole_half,Diminished Whole Half,N/A,Diminished,8,"1,2,♭3,4,♭5,♭6,♭♭7,7",Western Jazz,Jazz/Classical,
+hungarian_minor,Hungarian Minor,N/A,Hungarian,7,"1,2,♭3,♯4,5,♭6,7",Hungarian/Gypsy,Gypsy/Classical,
+spanish_scale,Spanish Scale,N/A,Spanish,8,"1,♭2,♭3,3,4,5,♭6,♭7",Spanish/Flamenco,Flamenco/Spanish,
+arabic_scale,Arabic Scale,N/A,Arabic,7,"1,♭2,3,4,5,♭6,♭7",Middle Eastern,Arabic/Middle Eastern,
+jewish_scale,Jewish Scale,N/A,Jewish,7,"1,♭2,3,4,5,♭6,♭7",Jewish/Klezmer,Jewish/Klezmer,
+balinese_pelog,Balinese Pelog,N/A,Balinese,5,"1,♭2,♭3,5,♭6",Indonesian,Balinese Gamelan,
+indian_bhairav,Indian Bhairav,N/A,Indian,7,"1,♭2,3,4,5,♭6,7",Indian Classical,Indian Classical,
+enigmatic,Enigmatic,N/A,Enigmatic,7,"1,♭2,3,♯4,♯5,♯6,7",Western Art,20th Century Classical,
+prometheus,Prometheus,N/A,Prometheus,6,"1,2,3,♯4,6,♭7",Russian/Scriabin,20th Century Classical,
+phrygian_dominant,Phrygian Dominant,Phrygian Dominant,Harmonic Minor Mode,7,"1,♭2,3,4,5,♭6,♭7",Middle Eastern/Flamenco,Flamenco/Metal/World Music,high
+mixolydian_flat_six,Mixolydian ♭6,Mixolydian ♭6,Melodic Minor Mode,7,"1,2,3,4,5,♭6,♭7",Jazz/Fusion,Jazz/Blues/Fusion,
+lydian_dominant,Lydian Dominant,Lydian Dominant,Melodic Minor Mode,7,"1,2,3,♯4,5,6,♭7",Jazz/Fusion,Dominant 7th chords|Jazz improvisation|Film scoring,high

@@ -1,0 +1,115 @@
+#pragma once
+
+#include <JuceHeader.h>
+#include "Core/ProjectManager.h"
+#include "Core/MIDIProcessor.h"
+#include "Core/TimingAnalyzer.h"
+#include "Core/LayerStackManager.h"
+#include "Core/HarmonicAnalyzer.h"
+#include "Core/RoutingManager.h"
+#include "Database/DatabaseManager.h"
+
+//==============================================================================
+class Stratum2AudioProcessor : public juce::AudioProcessor,
+                               public juce::MidiKeyboardState::Listener
+{
+public:
+    //==============================================================================
+    Stratum2AudioProcessor();
+    ~Stratum2AudioProcessor() override;
+
+    //==============================================================================
+    void prepareToPlay (double sampleRate, int samplesPerBlock) override;
+    void releaseResources() override;
+
+#ifndef JucePlugin_PreferredChannelConfigurations
+    bool isBusesLayoutSupported (const BusesLayout& layouts) const override;
+#endif
+
+    void processBlock (juce::AudioBuffer<float>&, juce::MidiBuffer&) override;
+
+    //==============================================================================
+    juce::AudioProcessorEditor* createEditor() override;
+    bool hasEditor() const override;
+
+    //==============================================================================
+    const juce::String getName() const override;
+
+    bool acceptsMidi() const override;
+    bool producesMidi() const override;
+    bool isMidiEffect() const override;
+    double getTailLengthSeconds() const override;
+
+    //==============================================================================
+    int getNumPrograms() override;
+    int getCurrentProgram() override;
+    void setCurrentProgram (int index) override;
+    const juce::String getProgramName (int index) override;
+    void changeProgramName (int index, const juce::String& newName) override;
+
+    //==============================================================================
+    void getStateInformation (juce::MemoryBlock& destData) override;
+    void setStateInformation (const void* data, int sizeInBytes) override;
+
+    //==============================================================================
+    // MidiKeyboardState::Listener
+    void handleNoteOn (juce::MidiKeyboardState* source, int midiChannel, int midiNoteNumber, float velocity) override;
+    void handleNoteOff (juce::MidiKeyboardState* source, int midiChannel, int midiNoteNumber, float velocity) override;
+
+    //==============================================================================
+    // Core Components Access
+    ProjectManager& getProjectManager() { return projectManager; }
+    MIDIProcessor& getMIDIProcessor() { return midiProcessor; }
+    TimingAnalyzer& getTimingAnalyzer() { return timingAnalyzer; }
+    LayerStackManager& getLayerStackManager() { return layerStackManager; }
+    HarmonicAnalyzer& getHarmonicAnalyzer() { return harmonicAnalyzer; }
+    RoutingManager& getRoutingManager() { return routingManager; }
+    DatabaseManager& getDatabaseManager() { return databaseManager; }
+
+    // MIDI Keyboard State for UI
+    juce::MidiKeyboardState keyboardState;
+
+    // Current workflow phase
+    enum class WorkflowPhase
+    {
+        Improvisation,
+        Composition,
+        Orchestration
+    };
+
+    WorkflowPhase getCurrentPhase() const { return currentPhase; }
+    void setCurrentPhase(WorkflowPhase phase);
+
+    // Analysis control
+    void triggerHarmonicAnalysis();
+    void setAnalysisLevel(HarmonicAnalyzer::AnalysisLevel level);
+
+private:
+    //==============================================================================
+    // Core system components
+    DatabaseManager databaseManager;
+    ProjectManager projectManager;
+    MIDIProcessor midiProcessor;
+    TimingAnalyzer timingAnalyzer;
+    LayerStackManager layerStackManager;
+    HarmonicAnalyzer harmonicAnalyzer;
+    RoutingManager routingManager;
+
+    // State
+    WorkflowPhase currentPhase { WorkflowPhase::Improvisation };
+    bool isRecordingImprovisation { false };
+    
+    // MIDI data capture
+    juce::Array<juce::MidiMessage> capturedMidiMessages;
+    double lastMidiTime { 0.0 };
+    double silenceThreshold { 1.5 }; // seconds
+
+    // Performance timing
+    double sampleRate { 44100.0 };
+    juce::int64 totalSamplesProcessed { 0 };
+
+    // Special MIDI controls (A0, A#0, B0)
+    void handleSpecialMidiControls(int midiNoteNumber, bool noteOn);
+    
+    JUCE_DECLARE_NON_COPYABLE_WITH_LEAK_DETECTOR (Stratum2AudioProcessor)
+};

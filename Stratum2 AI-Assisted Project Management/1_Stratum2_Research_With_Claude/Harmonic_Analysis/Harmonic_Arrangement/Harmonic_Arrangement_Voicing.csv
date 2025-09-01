@@ -1,0 +1,49 @@
+voicing_name,voicing_category,description,interval_span_semitones,typical_voices,registral_distribution,density_characteristic,voice_leading_implications,genre_associations,pedagogical_level,bass_register_typical,soprano_register_typical
+Cluster Voicing,spacing,"Notes grouped in close intervals (seconds, thirds)",6,6,concentrated,clustered,"Difficult voice-leading, coloristic","Contemporary, jazz",advanced,Contra,Three-line
+Cluster Voicing,spacing,"Notes grouped in close intervals (seconds, thirds)",6,6,concentrated,clustered,"Difficult voice-leading, coloristic","Contemporary, jazz",advanced,Contra,Two-line
+Cluster Voicing,spacing,"Notes grouped in close intervals (seconds, thirds)",6,6,concentrated,clustered,"Difficult voice-leading, coloristic","Contemporary, jazz",advanced,Great,Three-line
+Cluster Voicing,spacing,"Notes grouped in close intervals (seconds, thirds)",6,6,concentrated,clustered,"Difficult voice-leading, coloristic","Contemporary, jazz",advanced,Great,Two-line
+Rootless Voicing,function,"Chord without root, emphasizes color tones",12,4,mixed,open,"Emphasizes upper structures, modern sound","Jazz, contemporary",advanced,Contra,Three-line
+Rootless Voicing,function,"Chord without root, emphasizes color tones",12,4,mixed,open,"Emphasizes upper structures, modern sound","Jazz, contemporary",advanced,Contra,Two-line
+Rootless Voicing,function,"Chord without root, emphasizes color tones",12,4,mixed,open,"Emphasizes upper structures, modern sound","Jazz, contemporary",advanced,Great,Three-line
+Rootless Voicing,function,"Chord without root, emphasizes color tones",12,4,mixed,open,"Emphasizes upper structures, modern sound","Jazz, contemporary",advanced,Great,Two-line
+Upper Structure,function,"Triad built on chord extension (9, 11, 13)",12,3,concentrated,close,"Modern jazz harmony, color emphasis","Jazz, fusion",advanced,Contra,Three-line
+Upper Structure,function,"Triad built on chord extension (9, 11, 13)",12,3,concentrated,close,"Modern jazz harmony, color emphasis","Jazz, fusion",advanced,Contra,Two-line
+Upper Structure,function,"Triad built on chord extension (9, 11, 13)",12,3,concentrated,close,"Modern jazz harmony, color emphasis","Jazz, fusion",advanced,Great,Three-line
+Upper Structure,function,"Triad built on chord extension (9, 11, 13)",12,3,concentrated,close,"Modern jazz harmony, color emphasis","Jazz, fusion",advanced,Great,Two-line
+Quartal Voicing,spacing,Built from perfect and augmented fourths,16,4,mixed,open,"Parallel motion common, modern sound","Jazz, contemporary",advanced,Contra,Three-line
+Quartal Voicing,spacing,Built from perfect and augmented fourths,16,4,mixed,open,"Parallel motion common, modern sound","Jazz, contemporary",advanced,Contra,Two-line
+Quartal Voicing,spacing,Built from perfect and augmented fourths,16,4,mixed,open,"Parallel motion common, modern sound","Jazz, contemporary",advanced,Great,Three-line
+Quartal Voicing,spacing,Built from perfect and augmented fourths,16,4,mixed,open,"Parallel motion common, modern sound","Jazz, contemporary",advanced,Great,Two-line
+Drop 3,position,Third voice from top dropped an octave,24,4,mixed,mixed,"Wide soprano-alto gap, rich bass","Jazz, classical",advanced,Contra,Three-line
+Drop 3,position,Third voice from top dropped an octave,24,4,mixed,mixed,"Wide soprano-alto gap, rich bass","Jazz, classical",advanced,Contra,Two-line
+Drop 3,position,Third voice from top dropped an octave,24,4,mixed,mixed,"Wide soprano-alto gap, rich bass","Jazz, classical",advanced,Great,Three-line
+Drop 3,position,Third voice from top dropped an octave,24,4,mixed,mixed,"Wide soprano-alto gap, rich bass","Jazz, classical",advanced,Great,Two-line
+Polychord,texture,"Two triads combined, creates complex harmony",24,6,stratified,mixed,"Complex voice-leading, bitonality","Contemporary, jazz fusion",advanced,Contra,Three-line
+Polychord,texture,"Two triads combined, creates complex harmony",24,6,stratified,mixed,"Complex voice-leading, bitonality","Contemporary, jazz fusion",advanced,Contra,Two-line
+Polychord,texture,"Two triads combined, creates complex harmony",24,6,stratified,mixed,"Complex voice-leading, bitonality","Contemporary, jazz fusion",advanced,Great,Three-line
+Polychord,texture,"Two triads combined, creates complex harmony",24,6,stratified,mixed,"Complex voice-leading, bitonality","Contemporary, jazz fusion",advanced,Great,Two-line
+Close Position,position,All chord tones within an octave,12,4,concentrated,close,"Efficient voice-leading, smooth motion","Classical, hymns, chorales",beginner,Contra,Three-line
+Close Position,position,All chord tones within an octave,12,4,concentrated,close,"Efficient voice-leading, smooth motion","Classical, hymns, chorales",beginner,Contra,Two-line
+Close Position,position,All chord tones within an octave,12,4,concentrated,close,"Efficient voice-leading, smooth motion","Classical, hymns, chorales",beginner,Great,Three-line
+Close Position,position,All chord tones within an octave,12,4,concentrated,close,"Efficient voice-leading, smooth motion","Classical, hymns, chorales",beginner,Great,Two-line
+Shell Voicing,function,"Root, third, seventh only - essential tones",16,3,mixed,open,"Efficient, essential voice-leading","Jazz comping, accompaniment",beginner,Contra,Three-line
+Shell Voicing,function,"Root, third, seventh only - essential tones",16,3,mixed,open,"Efficient, essential voice-leading","Jazz comping, accompaniment",beginner,Contra,Two-line
+Shell Voicing,function,"Root, third, seventh only - essential tones",16,3,mixed,open,"Efficient, essential voice-leading","Jazz comping, accompaniment",beginner,Great,Three-line
+Shell Voicing,function,"Root, third, seventh only - essential tones",16,3,mixed,open,"Efficient, essential voice-leading","Jazz comping, accompaniment",beginner,Great,Two-line
+Block Chords,register,"All voices in same register, parallel motion",8,5,concentrated,close,"Parallel motion, lockstep voice-leading","Big band, gospel",intermediate,Contra,Three-line
+Block Chords,register,"All voices in same register, parallel motion",8,5,concentrated,close,"Parallel motion, lockstep voice-leading","Big band, gospel",intermediate,Contra,Two-line
+Block Chords,register,"All voices in same register, parallel motion",8,5,concentrated,close,"Parallel motion, lockstep voice-leading","Big band, gospel",intermediate,Great,Three-line
+Block Chords,register,"All voices in same register, parallel motion",8,5,concentrated,close,"Parallel motion, lockstep voice-leading","Big band, gospel",intermediate,Great,Two-line
+Drop 2,position,Second voice from top dropped an octave,19,4,mixed,mixed,"Jazz standard, smooth bass motion","Jazz, contemporary",intermediate,Contra,Three-line
+Drop 2,position,Second voice from top dropped an octave,19,4,mixed,mixed,"Jazz standard, smooth bass motion","Jazz, contemporary",intermediate,Contra,Two-line
+Drop 2,position,Second voice from top dropped an octave,19,4,mixed,mixed,"Jazz standard, smooth bass motion","Jazz, contemporary",intermediate,Great,Three-line
+Drop 2,position,Second voice from top dropped an octave,19,4,mixed,mixed,"Jazz standard, smooth bass motion","Jazz, contemporary",intermediate,Great,Two-line
+Open Position,position,Chord tones spread beyond an octave,24,4,spread,open,"Larger leaps, more dramatic motion","Orchestral, jazz, contemporary",intermediate,Contra,Three-line
+Open Position,position,Chord tones spread beyond an octave,24,4,spread,open,"Larger leaps, more dramatic motion","Orchestral, jazz, contemporary",intermediate,Contra,Two-line
+Open Position,position,Chord tones spread beyond an octave,24,4,spread,open,"Larger leaps, more dramatic motion","Orchestral, jazz, contemporary",intermediate,Great,Three-line
+Open Position,position,Chord tones spread beyond an octave,24,4,spread,open,"Larger leaps, more dramatic motion","Orchestral, jazz, contemporary",intermediate,Great,Two-line
+Spread Voicing,spacing,Wide intervals between all voices,36,4,spread,spread,"Large leaps, dramatic effects","Orchestral, film music",intermediate,Contra,Three-line
+Spread Voicing,spacing,Wide intervals between all voices,36,4,spread,spread,"Large leaps, dramatic effects","Orchestral, film music",intermediate,Contra,Two-line
+Spread Voicing,spacing,Wide intervals between all voices,36,4,spread,spread,"Large leaps, dramatic effects","Orchestral, film music",intermediate,Great,Three-line
+Spread Voicing,spacing,Wide intervals between all voices,36,4,spread,spread,"Large leaps, dramatic effects","Orchestral, film music",intermediate,Great,Two-line

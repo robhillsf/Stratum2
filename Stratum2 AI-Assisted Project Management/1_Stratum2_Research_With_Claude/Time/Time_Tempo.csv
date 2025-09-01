@@ -1,0 +1,9 @@
+tempo_id,italian_marking,bpm_range_min,bpm_range_max,expression_meaning,energy_level,emotional_character,historical_period,genre_suitability,composition_context,modifier_markings,modern_equivalent,pedagogical_level
+1,Largo,40,60,very slow and broad,very_low,"solemn, majestic",baroque_romantic,"classical, sacred","opening, funeral",,ballad,intermediate
+2,Adagio,66,76,slow and relaxed,low,"peaceful, contemplative",classical,"classical, ballads","expressive, closing","molto, poco",slow jam,beginner
+3,Andante,76,108,walking pace,medium,"comfortable, natural",classical,"classical, folk","development, narrative","con moto, sostenuto",mid-tempo,beginner
+4,Moderato,108,120,moderate speed,medium,"steady, balanced",classical,all genres,main themes,,standard tempo,beginner
+5,Allegro,120,168,fast and lively,high,"energetic, joyful",classical,"classical, pop","development, finale","ma non troppo, con brio",uptempo,intermediate
+6,Presto,168,200,very fast,very_high,"exciting, virtuosic",classical,"classical, virtuoso","climax, finale","molto, prestissimo",double-time,advanced
+7,Rubato,60,180,flexible tempo,medium,expressive freedom,romantic,"expressive, jazz","cadenza, ballad","molto, poco",free time,advanced
+8,Swing,120,160,jazz swing feel,high,syncopated groove,jazz_era,"jazz, swing","dance, improvisation","hard, soft",swing,intermediate
